@@ -1,0 +1,48 @@
+.title{
+    display: flex;
+    position: relative;
+    color: rgb(241, 233, 233);
+    font-size: 50px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+  
+    
+}
+
+.imghome{
+    background-image: url('https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png');
+    background-size: auto;
+    /* height: 760px; */
+    height: auto;
+    width: auto;
+}
+.divbutton{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 80%;
+    margin-top: 35%;
+}
+.link{
+text-decoration: none;
+}
+
+.ButtonHome{
+    background-color: rgb(198, 109, 70);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    
+    
+    
+}
+
+.ButtonHome:hover{
+    transform: scale(1.25);
+}
