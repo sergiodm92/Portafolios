@@ -1,0 +1,7 @@
+.box1{
+    display: grid;
+    justify-content: center;
+    gap: 60%;
+    margin: 0;
+    padding: 0;
+}
