@@ -228,3 +228,95 @@ margin: 20px;
     border-width: 3px;
     border-color: #f6f6f6;
 }
+.Html5{
+    background-image: url("https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 140%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.Html5:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.css{
+    background-image: url("https://exceltic.com/wp-content/uploads/2022/03/logo-css3.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 160%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    
+}
+.css:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.npm{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/810px-Npm-logo.svg.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 170%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.npm:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.git{
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--4RSUi4LD--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/3kfoy92ty0sds2a0nz4h.gif");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 190%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.git:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.express{
+    background-image: url("https://img2.freepng.es/20180711/yfe/kisspng-express-js-node-js-javascript-mongodb-node-js-5b461d28173fc6.1251392115313216400952.jpg");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 200%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.express:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}

@@ -76,13 +76,18 @@ export default function Skills(){
             </a>
             <a href="https://jestjs.io/" className={styleSkills.Jest}>
             </a>
-            <a href="https://jestjs.io/" className={styleSkills.Jest}>
+            <a href="https://en.wikipedia.org/wiki/HTML5" className={styleSkills.Html5}>
             </a>
-            <a href="https://jestjs.io/" className={styleSkills.Jest}>
+            <a href="https://en.wikipedia.org/wiki/CSS" className={styleSkills.css}>
             </a>
-            <a href="https://jestjs.io/" className={styleSkills.Jest}>
+            <a href="https://www.npmjs.com/" className={styleSkills.npm}>
             </a>
-
+            <a href="https://docs.github.com/es/get-started/quickstart/github-flow" className={styleSkills.git}>
+            </a>
+            <a href="https://jestjs.io/" className={styleSkills.npm}>
+            </a>
+            <a href="http://expressjs.com/" className={styleSkills.express}>
+            </a>
 
 
             </div>
