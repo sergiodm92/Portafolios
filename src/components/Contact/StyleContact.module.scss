@@ -10,6 +10,7 @@
     background-size: cover;
     justify-content: center;
 }
+
 .navbar{
     background-color: white;
     position: absolute;
@@ -20,6 +21,7 @@
     top: 0px;
     justify-content: center;
 }
+
 .back1{
     display: grid;
     background-color: black;
@@ -29,24 +31,28 @@
     left: 1196px;
     top: 0px;
 }
-.div-home{
+
+.divHome{
     color:black;
 }
+
 .buttonCV{
     margin-top: 5%;
     background-color: black;
-    color: #B67519;
-}
-.perfil{
-    background-image: url(/src/Utils/perfil.jpeg);
-    position: absolute;
-    width: 300px;
-    height: 300px;
+    color: rgb(193, 172, 148);
     border-radius: 50%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    height: 90px;
+    width: 90px;
+    }
+
+.buttonCV:hover{
+    border-color: #f6f6f6;
+    border-width: 4px;
+    border-style: solid;
+    color: #f6f6f6;
+    }
+
+
 .circle{
     position: absolute;
     width: 80px;

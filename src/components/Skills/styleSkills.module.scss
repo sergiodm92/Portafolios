@@ -1,0 +1,230 @@
+.back{
+    background-color: rgb(193, 172, 148);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: white;
+    position: absolute;
+    margin: 0;
+    width: 277px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+}
+
+.back1{
+    display: grid;
+    background-color: black;
+    position: absolute;
+    width: 316px;
+    height: 100%;
+    right: 0%;
+    top: 0px;
+}
+.accordion{
+margin: 20px;
+}
+.divHome{
+    color:black;
+    
+}
+
+.buttonCV{
+    margin-top: 5%;
+    background-color: black;
+    color: rgb(193, 172, 148);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    }
+
+.buttonCV:hover{
+    border-color: #f6f6f6;
+    border-width: 4px;
+    border-style: solid;
+    color: #f6f6f6;
+    }
+
+
+.circle{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    color: #B67519;
+}
+.JavaScript{
+    background-image: url("data:image/jpeg;base64,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");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 170%;
+}
+.JavaScript:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+
+
+.Nodejs{
+    background-image: url("https://nodejs.org/static/images/logo.svg");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 20%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Nodejs:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.React{
+    background-image: url("https://obsessivecoder.gallerycdn.vsassets.io/extensions/obsessivecoder/react-component-explorer/0.0.4/1596324109574/Microsoft.VisualStudio.Services.Icons.Default");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 40%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190%;
+}
+.React:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.Redux{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxb2JMfviJRRxoOTBkHVwRj1RkR1G_yf3mA&usqp=CAU");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 50%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Redux:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.PosgreSQL{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/300px-Postgresql_elephant.svg.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 70%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 83%;
+}
+.PosgreSQL:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.SaSS{
+    background-image: url("https://blog.artegrafico.net/wp-content/uploads/2019/07/sass-512.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 80%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+.SaSS:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+.MaterialUI{
+    background-image: url("https://v4.mui.com/static/logo.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 100%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+.MaterialUI:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+
+.BootStrap{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 60%;
+    margin-top: 110%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.BootStrap:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+
+.Jest{
+    background-image: url("https://iconape.com/wp-content/png_logo_vector/jest-logo.png");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 130%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.Jest:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}

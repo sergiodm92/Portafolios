@@ -12,14 +12,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Routes>
-          
-        <Route exact path="/" element={<LandingPage/>}/>
-        <Route exact path="/Home" element={<Home/>}/>
-        <Route exact path="/Skills" element={<Skills/>}/>
-        <Route exact path="/Projects" element={<Projects/>}/>
-        <Route exact path="/Contact" element={<Contact/>}/>
-        <Route exact path="*" element={<Error/>}/>
+    <Routes>
+    
+      <Route exact path="/" element={<LandingPage/>}/>       
+      <Route exact path="/Projects" element={<Projects/>}/> 
+      <Route exact path="/Home" element={<Home/>}/> 
+      <Route exact path="/Skills" element={<Skills/>}/>
+      <Route exact path="/Contact" element={<Contact/>}/>
       </Routes>
     </div>
   )
