@@ -62,9 +62,9 @@ export default function Skills(){
             </a>
             <a href="https://nodejs.org/en/" className={styleSkills.Nodejs}>
             </a>
-            <a href="https://es.reactjs.org/" className={styleSkills.React}>
+            <a href="https://reactjs.org/" className={styleSkills.React}>
             </a>
-            <a href="https://es.redux.js.org/" className={styleSkills.Redux}>
+            <a href="https://redux.js.org/" className={styleSkills.Redux}>
             </a>
             <a href="https://www.postgresql.org/" className={styleSkills.PosgreSQL}>
             </a>
