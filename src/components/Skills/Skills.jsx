@@ -2,7 +2,7 @@ import React from "react"
 import NavBar from "../Navbar/NavBar"
 import styleSkills from "./styleSkills.module.scss"
 import SimpleAccordion from "../Accordion/Accordion"
-import { Link } from "react-router-dom"
+
 
 
 
@@ -14,45 +14,75 @@ export default function Skills(){
                 <NavBar/>
             </div>
             <div className={styleSkills.divHome}>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion1}>
             <SimpleAccordion
             name="JavaScript"
-            resume="asdasda"
+            resume="asdasda askdhjlkahdkla alkhsdklasfalñf ahfioewqhifgowehgnw njfcvposoipfpg snajdfpoisdjof opjsopvjojwe jeopwjfopwej nfiwejngfipowe mofoewpmf"
             />
             </div>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion2}>
             <SimpleAccordion
             name="Node.js"
             resume="asdasda"
             />
             </div>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion3}>
             <SimpleAccordion
             name="React-Redux"
             resume="asdasda"
             />
             </div>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion4}>
             <SimpleAccordion
             name="Style-components"
             resume="asdasda"
             />
             </div>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion5}>
             <SimpleAccordion
             name="Express"
             resume="asdasda"
             />
             </div>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion6}>
             <SimpleAccordion
             name="PostgreSQL"
             resume="asdasda"
             />
             </div>
-            <div className={styleSkills.accordion}>
+            <div className={styleSkills.accordion7}>
             <SimpleAccordion
-            name="Frameworks"
+            name="HTML5"
+            resume="asdasda"
+            />
+            </div>
+            <div className={styleSkills.accordion8}>
+            <SimpleAccordion
+            name="CSS"
+            resume="asdasda"
+            />
+            </div>
+            <div className={styleSkills.accordion9}>
+            <SimpleAccordion
+            name="SASS"
+            resume="asdasda"
+            />
+            </div>
+            <div className={styleSkills.accordion10}>
+            <SimpleAccordion
+            name="Material U-I"
+            resume="asdasda"
+            />
+            </div>
+            <div className={styleSkills.accordion11}>
+            <SimpleAccordion
+            name="BootStrap"
+            resume="asdasda"
+            />
+            </div>
+            <div className={styleSkills.accordion12}>
+            <SimpleAccordion
+            name="Git-Flow"
             resume="asdasda"
             />
             </div>
@@ -87,6 +117,8 @@ export default function Skills(){
             <a href="https://jestjs.io/" className={styleSkills.npm}>
             </a>
             <a href="http://expressjs.com/" className={styleSkills.express}>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.vercel}>
             </a>
 
 
