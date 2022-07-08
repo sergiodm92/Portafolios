@@ -31,8 +31,74 @@
     right: 0%;
     top: 0px;
 }
-.accordion{
-margin: 20px;
+.accordion1{
+    position: absolute;
+    left: 20%;
+    top: 2%
+}
+.accordion2{
+    position: absolute;
+    left: 20%;
+    top: 19%
+}
+.accordion3{
+    position: absolute;
+    left: 20%;
+    top: 36%
+}
+.accordion4{
+    position: absolute;
+    
+    left: 20%;
+    top: 53%
+    }
+.accordion5{
+    position: absolute;
+    
+    left: 20%;
+    top: 70%
+}
+.accordion6{
+    position: absolute;
+    
+    left: 20%;
+    top: 87%
+}
+.accordion7{
+    position: absolute;
+    
+    left: 45%;
+    top: 2%
+}
+.accordion8{
+    position: absolute;
+    
+    left: 45%;
+    top: 19%
+}
+.accordion9{
+    position: absolute;
+    
+    left: 45%;
+    top: 36%
+}
+.accordion10{
+    position: absolute;
+    
+    left: 45%;
+    top: 53%
+}
+.accordion11{
+    position: absolute;
+    
+    left: 45%;
+    top: 70%
+}
+.accordion12{
+    position: absolute;
+   
+    left: 45%;
+    top: 87%
 }
 .divHome{
     color:black;
@@ -315,6 +381,25 @@ margin: 20px;
     background-size: 120%;
 }
 .express:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+}
+
+.vercel{
+    background-image: url("https://image.pitchbook.com/hG77CP8UhJjUMH6f59hnUSo3p2V1608196200048_200x200");
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 220%;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+.vercel:hover{
     cursor: pointer;
     border-style: solid;
     border-width: 3px;

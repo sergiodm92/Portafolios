@@ -8,10 +8,12 @@ export default function Home(){
 
       
     return (
-        <div className={styleHome.back}>
-            <div className={styleHome.navbar}>
+        <div>
+        <div className={styleHome.navbar}>
                 <NavBar/>
             </div>
+        <div className={styleHome.back}>
+            
             <div className={styleHome.divHome}>
                 <h6>Hi here! I am</h6>
                 <h1>MARIANA ROCÍO RIONDA</h1>
@@ -20,7 +22,9 @@ export default function Home(){
                 <button className={styleHome.buttonCV}>Download CV.pdf</button>
                 </a>
             </div>
-            <div className={styleHome.back1}>
+            
+        </div>
+        <div className={styleHome.back1}>
                 <div className={styleHome.perfil}></div>
                 <div className={styleHome.circle}></div>
                 <div className={styleHome.circle}></div>
