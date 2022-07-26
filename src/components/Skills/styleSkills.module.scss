@@ -66,14 +66,27 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 170%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
 }
+
 .JavaScript:hover{
     cursor: pointer;
     border-style: solid;
     border-width: 3px;
     border-color: #f6f6f6;
-    
+    p{
+    color:white;
+    font-size: 30px;
+    margin-top: 100%;
+    margin-left: -30%;
+    opacity: 100%;
+    }
 }
+
+
 .cplusplus{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg");
     position: absolute;
@@ -85,12 +98,23 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 90%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
 }
 .cplusplus:hover{
     cursor: pointer;
     border-style: solid;
     border-width: 3px;
     border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: 10%;
+        opacity: 100%;
+        }
 }
 
 .Nodejs{
@@ -104,12 +128,23 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
 }
 .Nodejs:hover{
     cursor: pointer;
     border-style: solid;
     border-width: 3px;
     border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -10%;
+        opacity: 100%;
+        }
 }
 .React{
     background-image: url("https://obsessivecoder.gallerycdn.vsassets.io/extensions/obsessivecoder/react-component-explorer/0.0.4/1596324109574/Microsoft.VisualStudio.Services.Icons.Default");
@@ -122,12 +157,23 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 190%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
 }
 .React:hover{
     cursor: pointer;
     border-style: solid;
     border-width: 3px;
     border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: 0%;
+        opacity: 100%;
+        }
 }
 .Redux{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJxb2JMfviJRRxoOTBkHVwRj1RkR1G_yf3mA&usqp=CAU");
@@ -147,6 +193,13 @@
     border-width: 3px;
     border-color: #f6f6f6;
     display: flex;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -10%;
+        opacity: 100%;
+        }
 }
 .PosgreSQL{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/300px-Postgresql_elephant.svg.png");
