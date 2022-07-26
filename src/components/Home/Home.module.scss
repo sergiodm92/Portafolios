@@ -71,7 +71,8 @@
 }
 
 .GitHuub{
-    background-color: rgb(194, 116, 116);
+    background-image: url("https://www.returngis.net/wp-content/uploads/2021/01/GitHub.png");
+    background-size: 100%;
     color: rgb(193, 172, 148);
     border-radius: 50%;
     height: 60px;
@@ -86,9 +87,13 @@
     border-style: solid;
     color: #f6f6f6;
     }
-
+    
 .Gmail{
-    background-color: rgb(116, 194, 137);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Gmail_Icon_%282013-2020%29.svg");
+    background-size: 90%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
     color: rgb(193, 172, 148);
     border-radius: 50%;
     height: 60px;
@@ -105,13 +110,17 @@
         }
 
 .Linkedin{
-    background-color: rgb(231, 8, 8);
+    background-image: url("https://cdn-icons-png.flaticon.com/512/174/174857.png");
+    background-color: #f6f6f6;
+    background-size: 90%;
+    background-position-y: 50%;
+    background-position-x: 50%;
     color: rgb(193, 172, 148);
     border-radius: 50%;
     height: 60px;
     width: 60px;
     margin-top: 350%;
-   
+
         }
             
 .Linkedin:hover{

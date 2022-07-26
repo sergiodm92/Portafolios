@@ -27,6 +27,8 @@ export default function Skills(){
             </a>
             <a href="https://www.postgresql.org/" className={styleSkills.PosgreSQL}>
             </a>
+            <a href="https://www.postgresql.org/" className={styleSkills.Secualize}>
+            </a>
             <a href="https://sass-lang.com/" className={styleSkills.SaSS}>
             </a>
             <a href="https://mui.com/" className={styleSkills.MaterialUI}>
