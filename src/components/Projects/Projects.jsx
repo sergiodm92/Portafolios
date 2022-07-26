@@ -4,7 +4,8 @@ import styleProjects from "./StyleProjects.module.scss"
 
 export default function Proyects(){
     return(
-        <div className={styleProjects.back}>
+        <div>
+            <div className={styleProjects.back}>
             <div className={styleProjects.navbar}>
                 <NavBar/>
             </div>
@@ -12,6 +13,7 @@ export default function Proyects(){
 
             </div>
         
+            </div>
         </div>
     )
 }

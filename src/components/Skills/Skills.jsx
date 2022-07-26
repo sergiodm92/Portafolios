@@ -9,86 +9,15 @@ import SimpleAccordion from "../Accordion/Accordion"
 export default function Skills(){
 
     return (
+        <div>
         <div className={styleSkills.back}>
             <div className={styleSkills.navbar}>
                 <NavBar/>
             </div>
-            <div className={styleSkills.divHome}>
-            <div className={styleSkills.accordion1}>
-            <SimpleAccordion
-            name="JavaScript"
-            resume="asdasda askdhjlkahdkla alkhsdklasfalñf ahfioewqhifgowehgnw njfcvposoipfpg snajdfpoisdjof opjsopvjojwe jeopwjfopwej nfiwejngfipowe mofoewpmf"
-            />
-            </div>
-            <div className={styleSkills.accordion2}>
-            <SimpleAccordion
-            name="Node.js"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion3}>
-            <SimpleAccordion
-            name="React-Redux"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion4}>
-            <SimpleAccordion
-            name="Style-components"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion5}>
-            <SimpleAccordion
-            name="Express"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion6}>
-            <SimpleAccordion
-            name="PostgreSQL"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion7}>
-            <SimpleAccordion
-            name="HTML5"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion8}>
-            <SimpleAccordion
-            name="CSS"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion9}>
-            <SimpleAccordion
-            name="SASS"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion10}>
-            <SimpleAccordion
-            name="Material U-I"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion11}>
-            <SimpleAccordion
-            name="BootStrap"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion12}>
-            <SimpleAccordion
-            name="Git-Flow"
-            resume="asdasda"
-            />
-            </div>
-            </div>
             <div className={styleSkills.back1}>
             <a href="https://www.javascript.com/" className={styleSkills.JavaScript}>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.cplusplus}>
             </a>
             <a href="https://nodejs.org/en/" className={styleSkills.Nodejs}>
             </a>
@@ -120,12 +49,20 @@ export default function Skills(){
             </a>
             <a href="https://vercel.com/" className={styleSkills.vercel}>
             </a>
+            <a href="https://vercel.com/" className={styleSkills.scrum}>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.trello}>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.figma}>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.github}>
+            </a>
 
-
+            
             </div>
         
         </div>
-        
+    </div>
     )
 }
 
