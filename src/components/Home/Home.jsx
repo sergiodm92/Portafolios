@@ -16,7 +16,7 @@ export default function Home(){
             
             <div className={styleHome.divHome}>
                 <h6>Hi here! I am</h6>
-                <h1>MARIANA ROCÍO RIONDA</h1>
+                <h1>DAVID MAIOLI SERGIO ANDRES</h1>
                 <h4>Full Stack Web Developer</h4>
                 <a href={cv} download="cv.pdf">
                 <button className={styleHome.buttonCV}>Download CV.pdf</button>
@@ -27,15 +27,15 @@ export default function Home(){
             <div className={styleHome.back1}>
                 <div className={styleHome.perfil}></div>
                 <div className={styleHome.links}>
-                <a href="">
-                <div className={styleHome.GitHuub}></div>
-                </a>
-                <a href="">
-                <div className={styleHome.Gmail}></div>
-                </a>
-                <a href="">
-                <div className={styleHome.Linkedin}></div>
-                </a>
+                    <a href="https://github.com/sergiodm92">
+                        <div className={styleHome.GitHuub}/>
+                    </a>
+                    <a href="mailto:crgiodm@gmail.com">
+                        <div className={styleHome.Gmail}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sergio-andres-david-maioli-196812176">
+                        <div className={styleHome.Linkedin}/>
+                    </a>
                 </div>
                 
             </div>
