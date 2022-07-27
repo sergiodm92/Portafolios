@@ -5,15 +5,16 @@ import Projects from "./components/Projects/Projects.jsx"
 import Contact from './components/Contact/Contact.jsx';
 import Skills from './components/Skills/Skills.jsx';
 import Error from './components/Error/Error.jsx';
-
+import 'antd/dist/antd.css'
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-    <Routes>
     
+    <Routes>
+   
       <Route exact path="/" element={<LandingPage/>}/>       
       <Route exact path="/Projects" element={<Projects/>}/> 
       <Route exact path="/Home" element={<Home/>}/> 
