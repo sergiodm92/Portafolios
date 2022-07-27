@@ -28,58 +28,55 @@ export default function Skills(){
             <p>React</p>
             </a>
             <a href="https://redux.js.org/" className={styleSkills.Redux}>
-            <p>Javascript</p>
+            <p>Redux</p>
             </a>
             <a href="https://www.postgresql.org/" className={styleSkills.PosgreSQL}>
-            <p>Javascript</p>
+            <p>PosgreSQL</p>
             </a>
             <a href="https://www.postgresql.org/" className={styleSkills.Secualize}>
-            <p>Javascript</p>
+            <p>Secualize</p>
             </a>
             <a href="https://sass-lang.com/" className={styleSkills.SaSS}>
-            <p>Javascript</p>
+            <p>SaSS</p>
             </a>
             <a href="https://mui.com/" className={styleSkills.MaterialUI}>
-            <p>Javascript</p>
+            <p>Material.UI</p>
             </a>
             <a href="https://getbootstrap.com/" className={styleSkills.BootStrap}>
-            <p>Javascript</p>
+            <p>BootStrap</p>
             </a>
             <a href="https://jestjs.io/" className={styleSkills.Jest}>
-            <p>Javascript</p>
+            <p>Jest</p>
             </a>
             <a href="https://en.wikipedia.org/wiki/HTML5" className={styleSkills.Html5}>
-            <p>Javascript</p>
+            <p>HTML5</p>
             </a>
             <a href="https://en.wikipedia.org/wiki/CSS" className={styleSkills.css}>
-            <p>Javascript</p>
+            <p>CSS</p>
             </a>
             <a href="https://www.npmjs.com/" className={styleSkills.npm}>
-            <p>Javascript</p>
+            <p>npm</p>
             </a>
             <a href="https://docs.github.com/es/get-started/quickstart/github-flow" className={styleSkills.git}>
-            <p>Javascript</p>
-            </a>
-            <a href="https://jestjs.io/" className={styleSkills.npm}>
-            <p>Javascript</p>
+            <p>Git.Flow</p>
             </a>
             <a href="http://expressjs.com/" className={styleSkills.express}>
-            <p>Javascript</p>
+            <p>Express.js</p>
             </a>
             <a href="https://vercel.com/" className={styleSkills.vercel}>
-            <p>Javascript</p>
+            <p>Vercel</p>
             </a>
             <a href="https://vercel.com/" className={styleSkills.scrum}>
-            <p>Javascript</p>
+            <p>Methodology.Scrum</p>
             </a>
             <a href="https://vercel.com/" className={styleSkills.trello}>
-            <p>Javascript</p>
+            <p>Trello</p>
             </a>
             <a href="https://vercel.com/" className={styleSkills.figma}>
-            <p>Javascript</p>
+            <p>Figma</p>
             </a>
             <a href="https://vercel.com/" className={styleSkills.github}>
-            <p>Javascript</p>
+            <p>Git.Hub</p>
             </a>
 
             
