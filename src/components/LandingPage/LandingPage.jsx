@@ -1,16 +1,17 @@
 import React from "react";
-import "./LandingPage.css"
 import { Link } from "react-router-dom";
+import styleLanding from "./LandingPage.module.scss"
 
 export default function LandingPage(){
+    const title="<Wellcome to my Portfolio/>"
     return(
-        <div className="imghome"> 
-            <div className="divtitle">
-                <p className="title">My Portfolio</p>
+        <div className={styleLanding.imghome}> 
+            <div className={styleLanding.divtitle}>
+                <p className={styleLanding.title}> {title} </p>
             </div>
-            <div className="divbutton">        
+            <div className={styleLanding.divbutton}>        
                 <Link className="link" to={'/Home'}>
-                    <button className="ButtonHome">GO</button>  
+                    <button className={styleLanding.ButtonHome}>GO</button>  
                 </Link>
             </div>
         </div>

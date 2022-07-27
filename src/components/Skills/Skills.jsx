@@ -3,9 +3,6 @@ import NavBar from "../Navbar/NavBar"
 import styleSkills from "./styleSkills.module.scss"
 import SimpleAccordion from "../Accordion/Accordion"
 
-
-
-
 export default function Skills(){
 
     return (
