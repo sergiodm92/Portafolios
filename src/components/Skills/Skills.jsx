@@ -19,7 +19,7 @@ export default function Skills(){
                     <a href="https://www.javascript.com/" className={styleSkills.JavaScript}>
                         <p>Javascript</p>
                     </a>
-                    <a href="https://vercel.com/" className={styleSkills.cplusplus}>
+                    <a href="https://en.wikipedia.org/wiki/C%2B%2B" className={styleSkills.cplusplus}>
                         <p>C++</p>
                     </a>
                     <a href="https://en.wikipedia.org/wiki/HTML5" className={styleSkills.Html5}>
@@ -31,7 +31,7 @@ export default function Skills(){
                     <a href="https://sass-lang.com/" className={styleSkills.SaSS}>
                         <p>SaSS</p>
                     </a>
-                    <a href="https://www.postgresql.org/" className={styleSkills.Secualize}>
+                    <a href="https://sequelize.org/" className={styleSkills.Secualize}>
                     <p>Secualize</p>
                     </a>
                 </div>
@@ -62,7 +62,7 @@ export default function Skills(){
                     <a href="https://www.npmjs.com/" className={styleSkills.npm}>
                         <p>npm</p>
                     </a>
-                    <a href="https://vercel.com/" className={styleSkills.figma}>
+                    <a href="https://www.figma.com/" className={styleSkills.figma}>
                         <p>Figma</p>
                     </a>
                     <a href="https://jestjs.io/" className={styleSkills.Jest}>
@@ -73,16 +73,16 @@ export default function Skills(){
                     </a>
                 </div>
                 <div className={styleSkills.divfour}>
-                    <a href="https://vercel.com/" className={styleSkills.scrum}>
+                    <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" className={styleSkills.scrum}>
                         <p>Methodology.Scrum</p>
                     </a>
-                    <a href="https://vercel.com/" className={styleSkills.github}>
+                    <a href="https://github.com/" className={styleSkills.github}>
                         <p>Git.Hub</p>
                     </a>
                     <a href="https://vercel.com/" className={styleSkills.vercel}>
                         <p>Vercel</p>
                     </a>
-                    <a href="https://vercel.com/" className={styleSkills.trello}>
+                    <a href="https://trello.com/" className={styleSkills.trello}>
                         <p>Trello</p>
                     </a>
                 </div>
@@ -94,21 +94,4 @@ export default function Skills(){
 }
 
 
-// <div>
-//             <NavBar/>
-//             <h1>My Skills</h1>
-//             <ul>
-//                 <li>React.js</li>
-//                 <li>Redux.js</li>
-//                 <li>Node.js</li>
-//                 <li>PostgreSQL</li>
-//                 <li>HTML</li>
-//                 <li>CSS</li>
-//                 <li>ES6</li>
-//                 <li>CorelDraw</li>
-//             </ul>
-//             <h1>Languages</h1>
-//             <h3>English</h3>
-//             <h4>Level B1</h4>            
-//         </div>
 
