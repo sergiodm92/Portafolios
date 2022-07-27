@@ -9,123 +9,81 @@ import SimpleAccordion from "../Accordion/Accordion"
 export default function Skills(){
 
     return (
+        <div>
         <div className={styleSkills.back}>
             <div className={styleSkills.navbar}>
                 <NavBar/>
             </div>
-            <div className={styleSkills.divHome}>
-            <div className={styleSkills.accordion1}>
-            <SimpleAccordion
-            name="JavaScript"
-            resume="asdasda askdhjlkahdkla alkhsdklasfalñf ahfioewqhifgowehgnw njfcvposoipfpg snajdfpoisdjof opjsopvjojwe jeopwjfopwej nfiwejngfipowe mofoewpmf"
-            />
-            </div>
-            <div className={styleSkills.accordion2}>
-            <SimpleAccordion
-            name="Node.js"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion3}>
-            <SimpleAccordion
-            name="React-Redux"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion4}>
-            <SimpleAccordion
-            name="Style-components"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion5}>
-            <SimpleAccordion
-            name="Express"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion6}>
-            <SimpleAccordion
-            name="PostgreSQL"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion7}>
-            <SimpleAccordion
-            name="HTML5"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion8}>
-            <SimpleAccordion
-            name="CSS"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion9}>
-            <SimpleAccordion
-            name="SASS"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion10}>
-            <SimpleAccordion
-            name="Material U-I"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion11}>
-            <SimpleAccordion
-            name="BootStrap"
-            resume="asdasda"
-            />
-            </div>
-            <div className={styleSkills.accordion12}>
-            <SimpleAccordion
-            name="Git-Flow"
-            resume="asdasda"
-            />
-            </div>
-            </div>
             <div className={styleSkills.back1}>
             <a href="https://www.javascript.com/" className={styleSkills.JavaScript}>
+            <p>Javascript</p>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.cplusplus}>
+            <p>C++</p>
             </a>
             <a href="https://nodejs.org/en/" className={styleSkills.Nodejs}>
+            <p>Node.js</p>
             </a>
             <a href="https://reactjs.org/" className={styleSkills.React}>
+            <p>React</p>
             </a>
             <a href="https://redux.js.org/" className={styleSkills.Redux}>
+            <p>Redux</p>
             </a>
             <a href="https://www.postgresql.org/" className={styleSkills.PosgreSQL}>
+            <p>PosgreSQL</p>
+            </a>
+            <a href="https://www.postgresql.org/" className={styleSkills.Secualize}>
+            <p>Secualize</p>
             </a>
             <a href="https://sass-lang.com/" className={styleSkills.SaSS}>
+            <p>SaSS</p>
             </a>
             <a href="https://mui.com/" className={styleSkills.MaterialUI}>
+            <p>Material.UI</p>
             </a>
             <a href="https://getbootstrap.com/" className={styleSkills.BootStrap}>
+            <p>BootStrap</p>
             </a>
             <a href="https://jestjs.io/" className={styleSkills.Jest}>
+            <p>Jest</p>
             </a>
             <a href="https://en.wikipedia.org/wiki/HTML5" className={styleSkills.Html5}>
+            <p>HTML5</p>
             </a>
             <a href="https://en.wikipedia.org/wiki/CSS" className={styleSkills.css}>
+            <p>CSS</p>
             </a>
             <a href="https://www.npmjs.com/" className={styleSkills.npm}>
+            <p>npm</p>
             </a>
             <a href="https://docs.github.com/es/get-started/quickstart/github-flow" className={styleSkills.git}>
-            </a>
-            <a href="https://jestjs.io/" className={styleSkills.npm}>
+            <p>Git.Flow</p>
             </a>
             <a href="http://expressjs.com/" className={styleSkills.express}>
+            <p>Express.js</p>
             </a>
             <a href="https://vercel.com/" className={styleSkills.vercel}>
+            <p>Vercel</p>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.scrum}>
+            <p>Methodology.Scrum</p>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.trello}>
+            <p>Trello</p>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.figma}>
+            <p>Figma</p>
+            </a>
+            <a href="https://vercel.com/" className={styleSkills.github}>
+            <p>Git.Hub</p>
             </a>
 
-
+            
             </div>
         
         </div>
-        
+    </div>
     )
 }
 

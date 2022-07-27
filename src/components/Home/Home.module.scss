@@ -26,7 +26,7 @@
 }
 
 .back1{
-    display: grid;
+    display: inline;
     background-color: black;
     position: absolute;
     width: 20%;
@@ -57,14 +57,82 @@
     }
 
 .perfil{
+    display:flex;
     background-image: url("../../Utils/perfil.jpeg");
-    position: absolute;
-    width: 300px;
-    height: 300px;
+    position: relative;
+    width: 70%;
+    height: 30%;
     border-radius: 50%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 75%;
+    margin-top: 50%;
+    margin-left: 17%;
 }
 
+.GitHuub{
+    background-image: url("https://www.returngis.net/wp-content/uploads/2021/01/GitHub.png");
+    background-size: 100%;
+    color: rgb(193, 172, 148);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 350%;
+   
+}
+
+.GitHuub:hover{
+    border-color: #f6f6f6;
+    border-width: 4px;
+    border-style: solid;
+    color: #f6f6f6;
+    }
+    
+.Gmail{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Gmail_Icon_%282013-2020%29.svg");
+    background-size: 90%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    color: rgb(193, 172, 148);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 350%;
+    
+        }
+    
+.Gmail:hover{
+    border-color: #f6f6f6;
+    border-width: 4px;
+    border-style: solid;
+    color: #f6f6f6;
+        }
+
+.Linkedin{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/174/174857.png");
+    background-color: #f6f6f6;
+    background-size: 90%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    color: rgb(193, 172, 148);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 350%;
+
+        }
+            
+.Linkedin:hover{
+    border-color: #f6f6f6;
+    border-width: 4px;
+    border-style: solid;
+    color: #f6f6f6;
+                }
+.links{
+    height: 40%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}

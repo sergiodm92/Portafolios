@@ -9,10 +9,10 @@ export default function Home(){
       
     return (
         <div>
-        <div className={styleHome.navbar}>
+            <div className={styleHome.navbar}>
                 <NavBar/>
             </div>
-        <div className={styleHome.back}>
+            <div className={styleHome.back}>
             
             <div className={styleHome.divHome}>
                 <h6>Hi here! I am</h6>
@@ -23,11 +23,21 @@ export default function Home(){
                 </a>
             </div>
             
-        </div>
-        <div className={styleHome.back1}>
+            </div>
+            <div className={styleHome.back1}>
                 <div className={styleHome.perfil}></div>
-                <div className={styleHome.circle}></div>
-                <div className={styleHome.circle}></div>
+                <div className={styleHome.links}>
+                <a href="">
+                <div className={styleHome.GitHuub}></div>
+                </a>
+                <a href="">
+                <div className={styleHome.Gmail}></div>
+                </a>
+                <a href="">
+                <div className={styleHome.Linkedin}></div>
+                </a>
+                </div>
+                
             </div>
         </div>
     )
