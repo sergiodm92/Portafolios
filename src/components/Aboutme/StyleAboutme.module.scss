@@ -33,7 +33,14 @@
 }
 
 .divHome{
+    .title{
+        text-align: center;
+    }
+    
     color:black;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .buttonCV{
@@ -53,24 +60,3 @@
     }
 
 
-.circle{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    color: #B67519;
-}
-
-.formgroup{
-    gap:50px;
- 
-    width: 700px;
-    height: 100px;
-}
-
-.form-control{
-    padding: 30px;
-}
-
-.title{
-    margin-left: 3%;
-}

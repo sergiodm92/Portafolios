@@ -1,7 +1,7 @@
 import React from "react"
 import NavBar from "../Navbar/NavBar"
 import styleSkills from "./styleSkills.module.scss"
-import SimpleAccordion from "../Accordion/Accordion"
+
 
 export default function Skills(){
 
@@ -15,6 +15,9 @@ export default function Skills(){
                 <div className={styleSkills.divone}>
                     <a href="https://www.javascript.com/" className={styleSkills.JavaScript}>
                         <p>Javascript</p>
+                    </a>
+                    <a href="https://www.python.org/" className={styleSkills.Python}>
+                        <p>Python</p>
                     </a>
                     <a href="https://en.wikipedia.org/wiki/C%2B%2B" className={styleSkills.cplusplus}>
                         <p>C++</p>
@@ -33,6 +36,9 @@ export default function Skills(){
                     </a>
                 </div>
                 <div className={styleSkills.divtwo}>
+                    <a href="https://code.visualstudio.com/" className={styleSkills.VisualStudioCode}>
+                        <p>Visual.Studio.Code</p>
+                    </a>
                     <a href="https://reactjs.org/" className={styleSkills.React}>
                         <p>React</p>
                     </a>
@@ -68,6 +74,9 @@ export default function Skills(){
                     <a href="https://docs.github.com/es/get-started/quickstart/github-flow" className={styleSkills.git}>
                         <p>Git.Flow</p>
                     </a>
+                    <a href="https://insomnia.rest/" className={styleSkills.Insomnia}>
+                        <p>Insomnia</p>
+                    </a>
                 </div>
                 <div className={styleSkills.divfour}>
                     <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" className={styleSkills.scrum}>
@@ -81,6 +90,13 @@ export default function Skills(){
                     </a>
                     <a href="https://trello.com/" className={styleSkills.trello}>
                         <p>Trello</p>
+                    </a>
+                    <a href="https://trello.com/" className={styleSkills.B1}>
+                        <p>English.B1</p>
+                    </a>
+                  
+                    <a href="https://www.postman.com/" className={styleSkills.Postman}>
+                        <p>PostMan</p>
                     </a>
                 </div>
             </div>

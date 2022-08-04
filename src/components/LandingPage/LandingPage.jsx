@@ -5,7 +5,7 @@ import styleLanding from "./LandingPage.module.scss"
 export default function LandingPage(){
     const title="<Wellcome to my Portfolio/>"
     return(
-        <div className={styleLanding.imghome}> 
+        <div className={styleLanding.background}> 
             <div className={styleLanding.divtitle}>
                 <p className={styleLanding.title}> {title} </p>
             </div>
