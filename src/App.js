@@ -4,8 +4,8 @@ import Home from "./components/Home/Home.jsx"
 import Projects from "./components/Projects/Projects.jsx"
 import Contact from './components/Contact/Contact.jsx';
 import Skills from './components/Skills/Skills.jsx';
+import Aboutme from './components/Aboutme/Aboutme.jsx';
 import Error from './components/Error/Error.jsx';
-import 'antd/dist/antd.css'
 import './App.css';
 
 
@@ -20,6 +20,7 @@ function App() {
       <Route exact path="/Home" element={<Home/>}/> 
       <Route exact path="/Skills" element={<Skills/>}/>
       <Route exact path="/Contact" element={<Contact/>}/>
+      <Route exact path="/Aboutme" element={<Aboutme/>}/>
       </Routes>
     </div>
   )

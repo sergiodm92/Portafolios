@@ -23,9 +23,12 @@
 }
 
 .back1{
-    display: block;
+    display: flex;
     background-color: rgb(193, 172, 148);
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width: 90%;
     height: 100%;
     right: 0%;
@@ -57,6 +60,36 @@
     font-size: 30px;
     margin-top: 100%;
     margin-left: -30%;
+    opacity: 100%;
+    }
+}
+
+.Python{
+    background-image: url("https://www.python.org/static/img/python-logo@2x.png");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 390%;
+    background-position-x: -1%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+
+.Python:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+    color:white;
+    font-size: 30px;
+    margin-top: 100%;
+    margin-left: -8%;
     opacity: 100%;
     }
 }
@@ -199,6 +232,34 @@
         opacity: 100%;
         }
 }
+.VisualStudioCode{
+    background-image: url("https://www.softzone.es/app/uploads-softzone.es/2021/09/Visual-Studio-Code-programacion.jpg");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.VisualStudioCode:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -110%;
+        opacity: 100%;
+        }
+}
+
 .React{
     background-image: url("https://obsessivecoder.gallerycdn.vsassets.io/extensions/obsessivecoder/react-component-explorer/0.0.4/1596324109574/Microsoft.VisualStudio.Services.Icons.Default");
     position: relative;
@@ -475,6 +536,34 @@
         opacity: 100%;
         }
 }
+.Insomnia{
+    background-image: url("https://insomnia.rest/images/insomnia-logo.svg");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 350%;
+    background-position-x: -1.5%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.Insomnia:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -40%;
+        opacity: 100%;
+        }
+}
 
 
 .vercel{
@@ -613,6 +702,61 @@
         opacity: 100%;
         }
 }
+.B1{
+    background-image: url("https://www.lingoskop.de/wp-content/uploads/2020/07/B1_English.png");    
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.B1:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -30%;
+        opacity: 100%;
+        }
+}
+.Postman{
+    background-image: url("https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8");    
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.Postman:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -30%;
+        opacity: 100%;
+        }
+}
+
 .divone{
     display:flex;
     justify-content: space-between;
@@ -639,9 +783,9 @@
 }
 .divfour{
     display:flex;
-    width: 70%;
+    width: 80%;
     height: 20%;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 10%;
 }

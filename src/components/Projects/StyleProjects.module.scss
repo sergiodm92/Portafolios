@@ -33,47 +33,20 @@
 }
 
 .divHome{
+ position: fixed;
     color:black;
+
 }
 
-.buttonCV{
-    margin-top: 5%;
-    background-color: black;
-    color: rgb(193, 172, 148);
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    }
+.divHome img {
+  
+        width: 600px;
+        max-height: 600px;
 
-.buttonCV:hover{
-    border-color: #f6f6f6;
-    border-width: 4px;
-    border-style: solid;
-    color: #f6f6f6;
-    }
-
-
-.circle{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    color: #B67519;
 }
 
-.contentStyle{
-    line-height: 500px;
-    color: #fff;
-    text-align: center;
-    
-    
-  };
 
 
-  .contentStylediv{
-  width: 500px;
-  cursor: pointer;
-  line-height: 500px;
-  justify-items: center;
 
-  };
+
 
