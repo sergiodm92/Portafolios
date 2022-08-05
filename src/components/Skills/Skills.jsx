@@ -54,19 +54,24 @@ export default function Skills(){
                     <a href="https://www.postgresql.org/" className={styleSkills.PosgreSQL}>
                         <p>PosgreSQL</p>
                     </a>
-                </div>
-                <div className={styleSkills.divthree}>
-                    <a href="https://mui.com/" className={styleSkills.MaterialUI}>
-                        <p>Material.UI</p>
-                    </a>
                     <a href="https://getbootstrap.com/" className={styleSkills.BootStrap}>
                         <p>BootStrap</p>
                     </a>
                     <a href="https://www.npmjs.com/" className={styleSkills.npm}>
                         <p>npm</p>
                     </a>
+                </div>
+                <div className={styleSkills.divthree}>
+                    <a href="https://mui.com/" className={styleSkills.MaterialUI}>
+                        <p>Material.UI</p>
+                    </a>
+                    
+                    
                     <a href="https://www.figma.com/" className={styleSkills.figma}>
                         <p>Figma</p>
+                    </a>
+                    <a href="https://www.figma.com/" className={styleSkills.Canva}>
+                        <p>Canva</p>
                     </a>
                     <a href="https://jestjs.io/" className={styleSkills.Jest}>
                         <p>Jest</p>
