@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../Navbar/NavBar";
-import styleProjects from "./StyleProjects.module.scss"
+import NavBar from "../NavBar/NavBar";
+import styleProjects from "./StyleProjects.module.scss";
 import CardProject from "../CardProjects/CardProject";
 import { useState } from "react";
 // import PaginationLeft from "../Pagination/Pagination";

@@ -1,11 +1,10 @@
 import React from "react";
-import NavBar from "../Navbar/NavBar";
-import styleAboutme from "./StyleAboutme.module.scss"
+import NavBar from "../NavBar/NavBar";
+import styleAboutme from "./StyleAboutme.module.scss";
 
 
 export default function Aboutme(){
-  
-       
+
     return(
         <div>
             <div className={styleAboutme.back}>
