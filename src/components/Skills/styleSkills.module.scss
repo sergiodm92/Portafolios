@@ -675,6 +675,33 @@
         opacity: 100%;
         }
 }
+.Canva{
+    background-image: url("https://conectasoftware.com/wp-content/uploads/2021/04/Canva_Logo.png");    position: absolute;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.Canva:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: 0%;
+        opacity: 100%;
+        }
+}
 .github{
     background-image: url("https://mpng.subpng.com/20180331/udw/kisspng-social-media-github-computer-icons-logo-github-5ac0188083c4f5.8572681115225386245397.jpg");    
     position: relative;
@@ -767,8 +794,8 @@
 }
 .divtwo{
     display:flex;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 1%;
+    width: 90%;
     height: 20%;
     justify-content: space-between;
     align-items: center;
