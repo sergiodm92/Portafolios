@@ -1,6 +1,6 @@
 import React from "react"
-import NavBar from "../Navbar/NavBar"
-import styleSkills from "./styleSkills.module.scss"
+import NavBar from "../NavBar/NavBar";
+import styleSkills from "./styleSkills.module.scss";
 
 
 export default function Skills(){
