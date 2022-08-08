@@ -29,7 +29,8 @@ return (
 
           <div className={StylesCard.cardtext}>
             <p className={StylesCard.title}>{title}</p>
-            <div className={StylesCard.summary}>
+            <div className={StylesCard.cardtext}>
+            <p className={StylesCard.title}>{summary}</p>
             </div>
 
         </div>
