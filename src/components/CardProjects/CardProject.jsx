@@ -46,14 +46,12 @@ const CardProject = ({ id, summary, album, title }) => {
                   alt="Third slide"
                 />
 
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
+          <div className={StylesCard.cardtext}>
+            <p className={StylesCard.title}>{title}</p>
+            <div className={StylesCard.cardtext}>
+            <p className={StylesCard.title}>{summary}</p>
+
+
             </div>
             <div className={StylesCard.cardtext}>
               <h1 className={StylesCard.title}>{title}</h1>

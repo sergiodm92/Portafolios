@@ -1,10 +1,12 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar";
-import styleProjects from "./StyleProjects.module.scss";
+
+import NavBar from "../NavBar/NavBar"
+import styleProjects from "./StyleProjects.module.scss"
+
 import CardProject from "../CardProjects/CardProject";
 import { useState } from "react";
-// import PaginationLeft from "../Pagination/Pagination";
-// import PaginationRight from "../Pagination/Pagination";
+import { PaginationLeft } from "../Pagination/Pagination";
+import {PaginationRight} from "../Pagination/Pagination";
 const {Projects} = require("./Data.json")
 
 
@@ -20,53 +22,51 @@ export default function Proyects(){
         indexOfFirstProjects,
         indexOfLastProjects
     )}
-    const pagination = (pageNumber) => {
-        if(pageNumber==="<" )setCurrentPage(CurrentPage-1)
-        else if(pageNumber===">")setCurrentPage(CurrentPage+1)
-        else setCurrentPage(pageNumber)}
-
+    const pagination = (pageNumber) => {setCurrentPage(pageNumber)}
 
     return(
-        <div>
+        
             <div className={styleProjects.back}>
-            <div className={styleProjects.navbar}>
-                <NavBar/>
-            </div>
-                <div className={styleProjects.divHome}>
-
-                <div>
-                        {/* <PaginationLeft className ="pagination"
+                <div className={styleProjects.navbar}>
+                    <NavBar/>
+                </div>
+                <div className={styleProjects.divPaginationLeft}>
+                        <PaginationLeft className={styleProjects.paginationleft}
                             ProjectsPerPage={ProjectsPerPage}
                             Projects={Projects.length}
                             pagination = {pagination}
                             CurrentPage = {CurrentPage}
-                        /> */}
+                        />
                 </div>
+                <div className={styleProjects.divHome}>
+
+
                 {currentProjects.map((e, i) => {
                     return (
                     <div className={styleProjects.carousel}>
-                        {/* <CardProject
+                        <CardProject
                             key={i}
                             id={e.id}
                             album={e.album}
                             title={e.title}
-                            summary={e.detail_resume}
-                        /> */}
+                            summary={e.summary}
+                        />
                     </div>
                 );
                 })}
-                <div>
-                        {/* <PaginationLeft className ="pagination"
+                
+                </div>
+                <div className={styleProjects.divPaginationRight}>
+                        <PaginationRight className ="pagination"
                             ProjectsPerPage={ProjectsPerPage}
                             Projects={Projects.length}
                             pagination = {pagination}
                             CurrentPage = {CurrentPage}
-                        /> */}
-                </div>
+                        />
                 </div>
         
             </div>
-        </div>
+        
     )
 }
 

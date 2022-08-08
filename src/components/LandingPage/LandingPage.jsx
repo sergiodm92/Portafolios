@@ -10,7 +10,7 @@ export default function LandingPage(){
                 <p className={styleLanding.title}> {title} </p>
             </div>
             <div className={styleLanding.divbutton}>        
-                <Link className="link" to={'/Home'}>
+                <Link className={styleLanding.link} to={'/Home'}>
                     <button className={styleLanding.ButtonHome}>GO</button>  
                 </Link>
             </div>

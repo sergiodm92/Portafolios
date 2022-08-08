@@ -21,6 +21,22 @@
     transition-duration: 0.4s;
     cursor: pointer;
   }
+
+  .Buttonsk {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    text-justify: auto;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
   
 
 
@@ -52,4 +68,9 @@
 
 .ptext{
     margin-top: 10px;
+}
+
+.ptextsk{
+  margin-top: 10px;
+  margin-left: -4px;
 }

@@ -1,34 +1,34 @@
 {"Projects":
     [{ 
         "title": "FoodApi",
-        "summary" : "asdsa",
+        "summary": "I’m a Frontend Developer based in Marrakech, Who likes to provide solutions for people's projects and businesses which it is a challenge that I enjoy overcoming. I am a passionate person who pursues his dreams, who works hard and who is results oriented. As a matter of fact, I constantly work on improving myself seeking to achieve the best version of myself. I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries. I spend most days learning and building up, either start it from scratch or adding some customized features and functionality for outdated websites to make them shine again.",
         "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                        "https://josefacchin.com/wp-content/uploads/2015/06/Foodiesfeed.png.webp",
-                        "https://josefacchin.com/wp-content/uploads/2015/06/Pixabay.png.webp"
+                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
                     ]},
     {  
         "title": "PokemonApi",
-        "summary" : "asdsa",
-        "album" :   [ "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                    "https://josefacchin.com/wp-content/uploads/2015/06/Foodiesfeed.png.webp",
-                    "https://josefacchin.com/wp-content/uploads/2015/06/Pixabay.png.webp"
-                            ]
+        "summary" : "I’m a Frontend Developer based in Marrakech, Who likes to provide solutions for people's projects and businesses which it is a challenge that I enjoy overcoming. I am a passionate person who pursues his dreams, who works hard and who is results oriented. As a matter of fact, I constantly work on improving myself seeking to achieve the best version of myself. I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries. I spend most days learning and building up, either start it from scratch or adding some customized features and functionality for outdated websites to make them shine again.",
+        "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
+    ]
                         },
     {  
         "title": "ServiExpress",
-        "summary" : "asdsa",
-        "album" :   [ "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                    "https://josefacchin.com/wp-content/uploads/2015/06/Foodiesfeed.png.webp",
-                    "https://josefacchin.com/wp-content/uploads/2015/06/Pixabay.png.webp"
-                ]
+        "summary" : "I’m a Frontend Developer based in Marrakech, Who likes to provide solutions for people's projects and businesses which it is a challenge that I enjoy overcoming. I am a passionate person who pursues his dreams, who works hard and who is results oriented. As a matter of fact, I constantly work on improving myself seeking to achieve the best version of myself. I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries. I spend most days learning and building up, either start it from scratch or adding some customized features and functionality for outdated websites to make them shine again.",
+        "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
+    ]
                     },
     {  
         "title": "Porfolio",
-        "summary" : "asdsa",
-        "album" :   [ "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                    "https://josefacchin.com/wp-content/uploads/2015/06/Foodiesfeed.png.webp",
-                    "https://josefacchin.com/wp-content/uploads/2015/06/Pixabay.png.webp"
-                    ]
+        "summary" : "I’m a Frontend Developer based in Marrakech, Who likes to provide solutions for people's projects and businesses which it is a challenge that I enjoy overcoming. I am a passionate person who pursues his dreams, who works hard and who is results oriented. As a matter of fact, I constantly work on improving myself seeking to achieve the best version of myself. I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries. I spend most days learning and building up, either start it from scratch or adding some customized features and functionality for outdated websites to make them shine again.",
+        "album" :    [  "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
+                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
+    ]
                     }
             ]
         }
