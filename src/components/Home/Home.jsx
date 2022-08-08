@@ -1,7 +1,9 @@
 import React from "react"
+
 import NavBar from "../NavBar/NavBar"
 import styleHome from "./Home.module.scss"
 import cv from "../../Utils/Curriculum.pdf"
+
 
 
 export default function Home(){

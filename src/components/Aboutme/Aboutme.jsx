@@ -1,6 +1,9 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
+
 import styleAboutme from "./StyleAboutme.module.scss"
+
+
 
 
 export default function Aboutme(){
