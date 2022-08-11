@@ -15,8 +15,7 @@ export default function Proyects(){
     const [ProjectsPerPage, setProjectsPerPage] = useState(1);
     const indexOfLastProjects = CurrentPage * ProjectsPerPage;
     const indexOfFirstProjects = indexOfLastProjects - ProjectsPerPage;
-    let currentProjects;
-    let pubsFav=[];
+    let currentProjects
     if (Projects.length > 0) {
     currentProjects = Projects?.slice(
         indexOfFirstProjects,
