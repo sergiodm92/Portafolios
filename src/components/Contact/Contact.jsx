@@ -1,8 +1,7 @@
 import React from "react";
-
 import NavBar from "../NavBar/NavBar"
 import styleContact from "./StyleContact.module.scss"
-
+import styleform from "./Styleform.scss"
 
 export default function Contact(){
   
@@ -15,7 +14,7 @@ export default function Contact(){
             <div className={styleContact.divHome}>
             <div className={styleContact.container}>
   <h1 className={styleContact.title}>Contact me</h1>
-  <form target="_blank" action="https://formsubmit.co/crgiodm@gmail.com" method="POST">
+  <form target="_blank" action="https://formsubmit.co/daa7cf686e88ba7862a10ef72835ee30" method="POST">
     <div className={styleContact.formgroup}>
       <div class="form-row">
         <div class="col">
