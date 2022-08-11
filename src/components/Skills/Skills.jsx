@@ -59,46 +59,62 @@ export default function Skills(){
                     <a href="https://www.npmjs.com/" className={styleSkills.npm}>
                         <p>npm</p>
                     </a>
+                    
                 </div>
                 <div className={styleSkills.divthree}>
                     <a href="https://mui.com/" className={styleSkills.MaterialUI}>
                         <p>Material.UI</p>
                     </a>
-                    
+                    <a href="https://insomnia.rest/" className={styleSkills.UXDesing}>
+                        <p>UX.Desing</p>
+                    </a>
                     
                     <a href="https://www.figma.com/" className={styleSkills.figma}>
                         <p>Figma</p>
                     </a>
-                    <a href="https://www.figma.com/" className={styleSkills.Canva}>
+                    <a href="https://www.canva.com/" className={styleSkills.AdobeXD}>
+                        <p>AdobeXD</p>
+                    </a>
+                    <a href="https://www.canva.com/" className={styleSkills.Canva}>
                         <p>Canva</p>
                     </a>
+
                     <a href="https://jestjs.io/" className={styleSkills.Jest}>
                         <p>Jest</p>
                     </a>
                     <a href="https://docs.github.com/es/get-started/quickstart/github-flow" className={styleSkills.git}>
                         <p>Git.Flow</p>
                     </a>
+                    
                     <a href="https://insomnia.rest/" className={styleSkills.Insomnia}>
                         <p>Insomnia</p>
                     </a>
+                   
                 </div>
                 <div className={styleSkills.divfour}>
-                    <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" className={styleSkills.scrum}>
-                        <p>Methodology.Scrum</p>
-                    </a>
+                    
                     <a href="https://github.com/" className={styleSkills.github}>
                         <p>Git.Hub</p>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" className={styleSkills.scrum}>
+                        <p>Methodology.Scrum</p>
                     </a>
                     <a href="https://vercel.com/" className={styleSkills.vercel}>
                         <p>Vercel</p>
                     </a>
-                    <a href="https://trello.com/" className={styleSkills.trello}>
-                        <p>Trello</p>
+                    <a href="https://www.heroku.com" className={styleSkills.Heroku}>
+                        <p>Heroku</p>
                     </a>
+                    <a href="https://www.elephantsql.com/" className={styleSkills.Elephant}>
+                        <p>Elephant.SQL</p>
+                    </a>
+                    
                     <a href="https://trello.com/" className={styleSkills.B1}>
                         <p>English.B1</p>
                     </a>
-                  
+                    <a href="https://trello.com/" className={styleSkills.trello}>
+                        <p>Trello</p>
+                    </a>
                     <a href="https://www.postman.com/" className={styleSkills.Postman}>
                         <p>PostMan</p>
                     </a>
