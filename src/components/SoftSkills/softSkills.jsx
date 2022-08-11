@@ -37,9 +37,8 @@ function len(){
                     : 
                     <p>Good Communication</p>
                     }
-                    <a  className={styleSoftSkills.Communication}/>
+                    <a className={styleSoftSkills.Communication}/>
                 </div>
-          
                 <div className={styleSoftSkills.divone}>
                 {lenguage===0? 
                     <p>Creatividad  </p>

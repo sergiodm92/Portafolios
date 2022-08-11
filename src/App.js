@@ -6,7 +6,6 @@ import Contact from './components/Contact/Contact.jsx';
 import Skills from './components/Skills/Skills.jsx';
 import SoftSk from './components/SoftSkills/softSkills.jsx'
 import Aboutme from './components/Aboutme/Aboutme.jsx';
-import Error from './components/Error/Error.jsx';
 import './App.css';
 
 
