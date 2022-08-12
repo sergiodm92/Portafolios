@@ -1,16 +1,22 @@
 {"Projects":
     [{ 
-        "title": "FoodApi",
-        "summarySP":"Es una aplicación donde se pueden ver distintas receta de cocina saludable, utilizando la api externa spoonacular, y a partir de ella se puede: Buscar recetas, filtrarlas, ordenarlas y crear nuevas recetas. Tecnologias utilizadas: React, Redux, Express, Sequelize - Postgres",
-        "summaryEN":"It is an application where you can see different healthy cooking recipes, using the spoonacular external api, and from it you can: Search for recipes, filter them, order them and create new recipes. Technologies used: React, Redux, Express, Sequelize - Postgres",
+        "title": "🍏 FoodApi",
+        "summarySP":"Es una aplicación donde se pueden ver distintas receta de cocina saludable, utilizando la api externa spoonacular, y a partir de ella se puede: Buscar recetas, filtrarlas, ordenarlas y crear nuevas recetas.",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
+        "summaryEN":"It is an application where you can see different healthy cooking recipes, using the spoonacular external api, and from it you can: Search for recipes, filter them, order them and create new recipes.",
+        "technologiesTitleEN":"Technologies used:",
+        "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
         "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
                     ]},
     {  
-        "title": "PokemonApi",
-        "summarySP" : "Es una aplicación donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos. Tecnologias utilizadas: React, Redux, Express, Sequelize - Postgres",
-        "summaryEN" : "It is an application where you can see the different Pokemon using the external pokeapi api and from it you can: Search for pokemon, filter them, order them and create new pokemons. Technologies used: React, Redux, Express, Sequelize - Postgres",
+        "title": "⚡ PokemonApi",
+        "summarySP" : "Es una aplicación donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos.",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
+        "summaryEN" : "It is an application where you can see the different Pokemon using the external pokeapi api and from it you can: Search for pokemon, filter them, order them and create new pokemons.",
+        "technologiesTitleEN":"Technologies used:",
+        "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
         "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
@@ -18,8 +24,11 @@
                         },
     {  
         "title": "🚘 OnDrive ",
-        "summarySP" : "Es una aplicación que permite facilitar los viajes de larga distancia en Argentina conectando Conductores y Pasajeros con un mismo destino, para que puedan acompañarse y reducir gastos. Gracias al uso de vehículos compartidos, ayudamos al medio ambiente disminuyendo la emisión de C02. Por otro lado, ofrecemos la posibilidad a nuestros usuarios de calcular los gastos en combustible, en caso que decidan realizar un viaje por su cuenta, indicando origen, destino, tipo de combustible y consumo de su vehículo. Mostramos así también un mapa con la mejor ruta posible. Tecnologías utilizadas: React, Redux, React-Router, React Bootstrap, CSS Modules, NodeJS, ExpressJS, JWT, Bcrypt, Sequelize, PostgreSQL",
-        "summaryEN" : "It is an application that facilitates long-distance travel in Argentina by connecting Drivers and Passengers with the same destination, so that they can accompany each other and reduce expenses. Thanks to the use of shared vehicles, we help the environment by reducing the emission of C02. On the other hand, we offer our users the possibility of calculating fuel expenses, in case they decide to make a trip on their own, indicating origin, destination, type of fuel and consumption of their vehicle. We also show a map with the best possible route. Technologies used: React, Redux, React-Router, React Bootstrap, CSS Modules, NodeJS, ExpressJS, JWT, Bcrypt, Sequelize, PostgreSQL",
+        "summarySP" : "Es una aplicación que permite facilitar los viajes de larga distancia en Argentina conectando Conductores y Pasajeros con un mismo destino, para que puedan acompañarse y reducir gastos. Gracias al uso de vehículos compartidos, ayudamos al medio ambiente disminuyendo la emisión de C02. Por otro lado, ofrecemos la posibilidad a nuestros usuarios de calcular los gastos en combustible, en caso que decidan realizar un viaje por su cuenta, indicando origen, destino, tipo de combustible y consumo de su vehículo. Mostramos así también un mapa con la mejor ruta posible.",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
+        "summaryEN" : "It is an application that facilitates long-distance travel in Argentina by connecting Drivers and Passengers with the same destination, so that they can accompany each other and reduce expenses. Thanks to the use of shared vehicles, we help the environment by reducing the emission of C02. On the other hand, we offer our users the possibility of calculating fuel expenses, in case they decide to make a trip on their own, indicating origin, destination, type of fuel and consumption of their vehicle. We also show a map with the best possible route.",
+        "technologiesTitleEN":"Technologies used:",
+        "technologies":["React", "Redux", "React-Router", "React","Bootstrap", "CSS Modules", "NodeJS", "ExpressJS", "JWT", "Bcrypt", "Sequelize", "PostgreSQL"],
         "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
@@ -28,9 +37,12 @@
     "video": ""  
                     },
                     { 
-        "title": "ServiExpress",
-        "summarySP":"ServiExpress es una tienda minorista de servicios en línea donde puedes comprar diferentes servicios, pedir presupuestos, o inclusive publicar el servicio que tu ofreces.  Cada vendedor tiene su rankin según los comentarios de otros usuarios que permite saber que tan confiable es la persona que brinda determinado servicio. Inclusive puedes agregar a favoritos a tus prestadores preferidos. Tecnologias utilizadas: PostgreSQL – Sequelize, Node.js - Express.js, Passport.js, Nodemailer, Stripe – MercadoPago, Chatengine.io, React – Redux, CSS modules - Styled Components, MaterialUI – Bootstrap.",
-        "summaryEN": "ServiExpress is an online services retail store where you can buy different services, ask for quotes, or even publish the service that you offer. Each seller has their ranking according to the comments of other users, which allows us to know how reliable the person who provides a certain service is. You can even bookmark your preferred providers. Technologies used: PostgreSQL – Sequelize, Node.js - Express.js, Passport.js, Nodemailer, Stripe – MercadoPago, Chatengine.io, React – Redux, CSS modules - Styled Components, MaterialUI – Bootstrap.",
+        "title": "👷🏽‍♂️ ServiExpress",
+        "summarySP":"ServiExpress es una tienda minorista de servicios en línea donde puedes comprar diferentes servicios, pedir presupuestos, o inclusive publicar el servicio que tu ofreces.  Cada vendedor tiene su rankin según los comentarios de otros usuarios que permite saber que tan confiable es la persona que brinda determinado servicio. Inclusive puedes agregar a favoritos a tus prestadores preferidos.",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
+        "summaryEN": "ServiExpress is an online services retail store where you can buy different services, ask for quotes, or even publish the service that you offer. Each seller has their ranking according to the comments of other users, which allows us to know how reliable the person who provides a certain service is. You can even bookmark your preferred providers.",
+        "technologiesTitleEN":"Technologies used:",
+        "technologies": ["PostgreSQL – Sequelize", "Node.js - Express.js", "Passport.js", "Nodemailer", "Stripe – MercadoPago", "Chatengine.io", "React – Redux", "CSS modules - Styled Components", "MaterialUI – Bootstrap"],
         "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
@@ -42,7 +54,10 @@
     {  
         "title": "Porfolio",
         "summarySP" : "Pequeño proyecto pensado para presentarme, mostrar mis intereses y habilidades, ademas de mis proyectos mas recientes",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN" : "Small project designed to introduce myself, show my interests and skills, in addition to my most recent projects",
+        "technologiesTitleEN":"Technologies used:",
+        "technologies" : ["React", "CSS modules - Styled Components"],
         "album" :    [  "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
                         "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
