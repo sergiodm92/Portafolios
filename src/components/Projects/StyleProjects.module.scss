@@ -69,7 +69,41 @@
     justify-items: center;
     align-items: center;
     }
-
+    .switchButton{
+        position: fixed;
+        margin-bottom: 30%;
+        justify-items: left;
+        margin-left: 35%;
+        width: 100%;
+    }
+    .switchbuttoncheckbox {
+        display: none;
+    }
+    .switchButtonLabel {
+        background-color: var(--color-button);
+        width: 2.5rem;
+        height: 1.5rem;
+        border-radius: 3rem;
+        display: inline-block;
+        position: relative;
+    }
+    .switchButtonLabel:before {
+        transition: .2s;
+        display: block;
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: var(--color-button);
+        content: '';
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 0px 1px var(--color-black);
+    }
+    .switchButtonLabel:checked{
+        background-color: var(--color-green);
+    }
+    .switchbuttoncheckbox:checked + .switchButtonLabel:before {
+        transform: translateX(1rem);
+    }
 
 
 
