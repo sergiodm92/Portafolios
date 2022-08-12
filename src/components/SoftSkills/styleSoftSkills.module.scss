@@ -65,7 +65,7 @@
     justify-items: right;
     margin-left: 76%;
     width: 100%;
-   
+
 }
 
 
@@ -76,11 +76,9 @@
     --color-black: #000;
 }
 .switchbuttoncheckbox {
-    display: inline-block;
-}
-.switchbuttoncheckbox {
     display: none;
 }
+
 .switchButtonLabel {
     background-color: var(--color-button);
     width: 2.5rem;
