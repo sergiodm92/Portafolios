@@ -1,9 +1,18 @@
 .cardimage{
-    width: 600px;
+    width: 700px;
     height: 350px;
 }
 
 .cardtext{
+    position: relative;
     text-align:justify;
-    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 250px;
+}
+
+.sumary{
+    text-align: center;
+    
 }

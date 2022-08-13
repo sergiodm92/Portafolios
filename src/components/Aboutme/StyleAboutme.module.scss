@@ -59,4 +59,55 @@
     color: #f6f6f6;
     }
 
+    .switchButton{
+        position: fixed;
+        justify-items: right;
+        margin-left: 50%;
+        width: 100%;
+        margin-top: 1%;
+    
+    }
+    
+    
+    :root {
+        --color-green: #00a878;
+        --color-red: #fe5e41;
+        --color-button: #fdffff;
+        --color-black: #000;
+    }
+    .switchbuttoncheckbox {
+        display: none;
+    }
+    
+    .switchButtonLabel {
+        background-color: var(--color-button);
+        width: 2.5rem;
+        height: 1.5rem;
+        border-radius: 3rem;
+        display: inline-block;
+        position: relative;
+    }
+    .switchButtonLabel:before {
+        transition: .2s;
+        display: block;
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: var(--color-button);
+        content: '';
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 0px 1px var(--color-black);
+    }
+    .switchButtonLabel:checked{
+        background-color: var(--color-green);
+    }
+    .switchbuttoncheckbox:checked + .switchButtonLabel:before {
+        transform: translateX(1rem);
+    }
 
+.text{
+    width: 800px;
+    height: 700px;
+    margin-top: 50%;
+    margin-left: -40%;
+}

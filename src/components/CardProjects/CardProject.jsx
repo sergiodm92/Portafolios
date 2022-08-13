@@ -21,7 +21,7 @@ const CardProject = ({ id, summary, album, title }) => {
         <div className={StylesCard.cardtext}>
           <p className={StylesCard.title}>{title}</p>
           <div className={StylesCard.cardtext}>
-          <p className={StylesCard.title}>{summary}</p>
+          <p className={StylesCard.summary}>{summary}</p>
             </div>
 
         </div>
