@@ -1,5 +1,6 @@
 .form-control{
     margin: 20px;
+    color: #f6f6f6;
 }
 
 .bottonsend{
@@ -7,10 +8,18 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color:  rgb(193, 172, 148);
+    background-color:  black;
     font-size: 20px;
+    color: #f6f6f6;
 }
 
 .bottonsend:hover{
-    transform: scale(1.05);
+    border-color: #f6f6f6;
+    border-width: 2px;
+    background-image: url("https://c.tenor.com/8McIGu0Tf_QAAAAi/fire-joypixels.gif");
+    background-size: 90%;
+    border-color: #f6f6f6;
+    border-width: 2px;
+    border-style: solid;
+    color: #f6f6f6;
 }

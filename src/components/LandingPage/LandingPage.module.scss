@@ -1,24 +1,35 @@
 .title{
-    margin-top: -2%;
-    position: relative;
+   
     color: rgb(241, 233, 233);
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 50px;
-    }
+    margin-top: 10%;
+     }
 
 .background{
     display:block;
     position: absolute;
     background-color: rgb(193, 172, 148);
-    background-image: url("../../Img/porfolio.gif");
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     width: 100%;
+    font-size: 30px;
 
 }
+
+.cohete{
+    position: absolute;
+    background-image: url("../../Utils/cohete\ azulsll.png");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+
 
 .divbutton{
     position: relative;
@@ -33,17 +44,49 @@ text-decoration: none;
 }
 
 .ButtonHome{
-    background-color: rgb(193, 172, 148);
-    color: black;
+    position: relative;
+    background-color: black;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    width: 80px;
+    width: 50px;
     height: 40px;
+    font-size: 30px;
+   margin-top: -70%;
+   margin-left: 80%;
     
 }
 
-.ButtonHome:hover{
-    transform: scale(1.05);
+.llamita{
+    display: flex;
+    border-radius: 50px;
+    width: 93px;
+    height: 93px;
+    background-image: url("https://c.tenor.com/8McIGu0Tf_QAAAAi/fire-joypixels.gif");
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 290%;
+    color:transparent;
+    margin-left: 8.5%;
+    margin-top: 24%;
+    rotate:-136deg;
+    }
+    
+    .ButtonHome:hover  {
+        
+       .llamtita{
+        background-image: none;
+       }
+            }
+
+    
+
+
+
+
+.h1{
+    margin-right: 10% ;
+   
 }

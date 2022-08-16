@@ -9,10 +9,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    font-family: 'DynaPuff', cursive;
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
+    color: #f6f6f6;
 }
 
 .navbar{
-    background-color: white;
+
     position: absolute;
     margin: 0;
     width: 10%;
@@ -33,7 +36,7 @@
 }
 
 .divHome{
-    color:black;
+    color: white;
 }
 
 .buttonCV{
@@ -45,12 +48,6 @@
     width: 90px;
     }
 
-.buttonCV:hover{
-    border-color: #f6f6f6;
-    border-width: 4px;
-    border-style: solid;
-    color: #f6f6f6;
-    }
 
 
 .circle{
@@ -74,3 +71,5 @@
 .title{
     margin-left: 3%;
 }
+
+

@@ -9,10 +9,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
 }
 
 .navbar{
-    background-color: white;
+ 
     position: absolute;
     margin: 0;
     width: 10%;
@@ -65,6 +66,8 @@
         margin-left: 50%;
         width: 100%;
         margin-top: 1%;
+        font-family: 'DynaPuff', cursive;
+        color: #f6f6f6;
     
     }
     
@@ -86,6 +89,7 @@
         border-radius: 3rem;
         display: inline-block;
         position: relative;
+        
     }
     .switchButtonLabel:before {
         transition: .2s;
@@ -110,4 +114,7 @@
     height: 700px;
     margin-top: 50%;
     margin-left: -40%;
+    font-family: 'DynaPuff', cursive;
+    color: #f6f6f6;
+    -webkit-text-stroke: 1px black;
 }

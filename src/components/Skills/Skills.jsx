@@ -18,7 +18,7 @@ export default function Skills(){
                         <p>Javascript</p>
                     </a>
                     <a href="https://www.python.org/" className={styleSkills.Python}>
-                        <p>Python</p>
+                        <p>Python(learning...)</p>
                     </a>
                     <a href="https://en.wikipedia.org/wiki/C%2B%2B" className={styleSkills.cplusplus}>
                         <p>C++</p>
@@ -68,14 +68,14 @@ export default function Skills(){
                         <p>Material.UI</p>
                     </a>
                     <a href="https://insomnia.rest/" className={styleSkills.UXDesing}>
-                        <p>UX.Desing</p>
+                        <p>UX.Desing(learning...)</p>
                     </a>
                     
                     <a href="https://www.figma.com/" className={styleSkills.figma}>
                         <p>Figma</p>
                     </a>
                     <a href="https://www.canva.com/" className={styleSkills.AdobeXD}>
-                        <p>AdobeXD</p>
+                        <p>AdobeXD(learning...)</p>
                     </a>
                     <a href="https://www.canva.com/" className={styleSkills.Canva}>
                         <p>Canva</p>

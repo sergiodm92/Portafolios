@@ -1,11 +1,12 @@
 .back{
-    background-color: rgb(193, 172, 148);
+    
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
     display: grid;
     place-items: center;
     position: fixed;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-right: 20%;
-    width: 70%;
+    width: 100%;
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,7 +16,7 @@
 }
 
 .navbar{
-    background-color: white;
+    
     position: absolute;
     margin: 0;
     width: 10%;
@@ -34,32 +35,48 @@
     right: 0%;
     top: 0px;
     justify-items: center;
-}
+ 
 
+}
+.h4{
+    -webkit-text-stroke: 1px black;
+}
+.h1{
+    -webkit-text-stroke: 1px black;
+}
 .divHome{
-    color:black;
+    color: #f6f6f6fb;
+    text-shadow: black;
+    margin-right: 40%;
+    width: 150%;
+   
+
 }
 
 .buttonCV{
     margin-top: 5%;
     background-color: black;
-    color: rgb(193, 172, 148);
+    color: white;
+    font-size: 15px;
     border-radius: 50%;
     height: 90px;
     width: 90px;
     }
 
 .buttonCV:hover{
+    background-image: url("https://c.tenor.com/8McIGu0Tf_QAAAAi/fire-joypixels.gif");
+    background-size: 90%;
     border-color: #f6f6f6;
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
     color: #f6f6f6;
     }
 
 .perfil{
     display:flex;
-    background-image: url("https://avatars.githubusercontent.com/u/97261829?s=400&u=a086734354df5f83897f2422adc2fb2c4a1a040f&v=4");
-    background-position-y: 100%;
+    background-image: url("../../Utils/perfil.jpg");
+    background-position-y: 70%;
+    background-position-x: 150%;
     position: relative;
     width: 210px;
     height: 200px;
@@ -138,3 +155,4 @@
     height: 40%;
     align-items: flex-end;
 }
+
