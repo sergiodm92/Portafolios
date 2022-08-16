@@ -50,33 +50,44 @@ export default function Proyects(){
                         <input type="checkbox"  id="switch-label" onChange={()=> len()} className={styleProjects.switchbuttoncheckbox} />
                         <label for="switch-label" className={styleProjects.switchButtonLabel} ></label>
                     </div>
-                    {currentProjects.map((e, i) => {
-                        return (
-                        <div className={styleProjects.carousel}>
-                            {lenguage===0
-                                ?   <CardProject
-                                        key={i}
-                                        id={e.id}
-                                        album={e.album}
-                                        title={e.title}
-                                        summary={e.summarySP}
-                                        deploy={e.deploy}
-                                        video={e.video}
-                                    />
-                                :   <CardProject
-                                        key={i}
-                                        id={e.id}
-                                        album={e.album}
-                                        title={e.title}
-                                        summary={e.summaryEN}
-                                        deploy={e.deploy}
-                                        video={e.video}
-                                    />
-                            }
-                        </div>
-                    );
+                    
+                        {currentProjects.map((e, i) => {
+                        
+                            return (
+                                <div className={styleProjects.middle}>
+                            <div className={styleProjects.carousel}>
+                                {lenguage===0
+                                    ?   <CardProject
+                                            key={i}
+                                            id={e.id}
+                                            album={e.album}
+                                            title={e.title}
+                                            summary={e.summarySP}
+                                            deploy={e.deploy}
+                                            video={e.video}
+                                        />
+                                    :   <CardProject
+                                            key={i}
+                                            id={e.id}
+                                            album={e.album}
+                                            title={e.title}
+                                            summary={e.summaryEN}
+                                            deploy={e.deploy}
+                                            video={e.video}
+                                        />
+                                }  
+                            </div>
+                  
+                            <div className={styleProjects.links}>
+                            <a href={e.video}><div className={styleProjects.youtube}></div></a>
+                            <div className={styleProjects.deploy}></div>
+
+                    </div>
+                </div>
+                );
                     })}
                 </div>
+              
                 <div className={styleProjects.divPaginationRight}>
                     <PaginationRight className ="pagination"
                         ProjectsPerPage={ProjectsPerPage}
@@ -85,6 +96,7 @@ export default function Proyects(){
                         CurrentPage = {CurrentPage}
                     />
                 </div>
+            
             </div>
         
     )

@@ -1,5 +1,5 @@
 .back{
-    background-color: rgb(193, 172, 148);
+
     display: grid;
     place-items: center;
     position: fixed;
@@ -9,10 +9,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    font-family: 'DynaPuff', cursive;
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
+
 }
 
 .navbar{
-    background-color: white;
+   
     position: absolute;
     margin: 0;
     width: 10%;
@@ -24,7 +27,7 @@
 
 .back1{
     display: flex;
-    background-color: rgb(193, 172, 148);
+    
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -33,6 +36,7 @@
     height: 100%;
     right: 0%;
     top: 0px;
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
 }
 
 .JavaScript{
@@ -89,7 +93,7 @@
     color:white;
     font-size: 30px;
     margin-top: 100%;
-    margin-left: -8%;
+    margin-left: -150%;
     opacity: 100%;
     }
 }
@@ -228,7 +232,7 @@
         color:white;
         font-size: 30px;
         margin-top: 100%;
-        margin-left: -30%;
+        margin-left: -80%;
         opacity: 100%;
         }
 }
@@ -561,12 +565,12 @@
         color:white;
         font-size: 30px;
         margin-top: 100%;
-        margin-left: -40%;
+        margin-left: -150%;
         opacity: 100%;
         }
 }
 .AdobeXD{
-    background-image: url("https://cdn.icon-icons.com/icons2/3053/PNG/512/adobe_xd_macos_bigsur_icon_190424.png");
+    background-image: url("https://play-lh.googleusercontent.com/kaox1VteLsWAuNxPxhm8t4llaoyFhxzDjo9g4Hdf92bKdT_Sn6Yrdku6rApuc5ktirw=w240-h480-rw");
     position: relative;
     width: 80px;
     height: 80px;
@@ -590,7 +594,7 @@
         color:white;
         font-size: 30px;
         margin-top: 100%;
-        margin-left: -40%;
+        margin-left: -150%;
         opacity: 100%;
         }
 }
@@ -618,7 +622,7 @@
         color:white;
         font-size: 30px;
         margin-top: 100%;
-        margin-left: -40%;
+        margin-left: -50%;
         opacity: 100%;
         }
 }
@@ -735,14 +739,14 @@
 }
 
 .trello{
-    background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/c/p/res/images/trello-header-logos/167dc7b9900a5b241b15ba21f8037cf8/trello-logo-blue.svg");    position: absolute;
+    background-image: url("https://descargar10.win/wp-content/uploads/2018/05/copy-paste-links-in-trello-1024x513.png");    position: absolute;
     position: relative;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 210%;
     text-decoration:none;
     p{
         opacity: 0%;

@@ -21,10 +21,10 @@ export default function NavBar(){
 						<p className={styleNavbar.ptext}>Skills</p>
 					</button>
                     <button className={window.location.href.includes("SoftSk") ? styleNavbar.ButtonHover: styleNavbar.Buttonsk} onClick={() => {nav(`/SoftSk`)}}>
-						<p className={styleNavbar.ptextsk}>SoftSkills</p>
+						<p className={styleNavbar.ptextsk}>Soft <br></br>Skills</p>
 					</button>
                     <button className={window.location.href.includes("Projects") ? styleNavbar.ButtonHover: styleNavbar.Button} onClick={() => {nav(`/Projects`)}}>
-						<p className={styleNavbar.ptext}>Projects</p>
+						<p className={styleNavbar.ptext}>Projec.</p>
 					</button>
                     <button className={window.location.href.includes("Contact") ? styleNavbar.ButtonHover: styleNavbar.Button} onClick={() => {nav(`/Contact`)}}>
 						<p className={styleNavbar.ptext}>Contact</p>

@@ -1,5 +1,7 @@
+
+
 .back{
-    background-color: rgb(193, 172, 148);
+   
     display: grid;
     place-items: center;
     position: fixed;
@@ -9,10 +11,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
 }
 
 .navbar{
-    background-color: white;
+
     position: absolute;
     margin: 0;
     width: 10%;
@@ -24,7 +27,7 @@
 
 .back1{
     display: flex;
-    background-color: rgb(193, 172, 148);
+    
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -32,19 +35,22 @@
     width: 90%;
     height: 100%;
     right: 0%;
-    top: -50px;
+    color: #fdffff;
     gap:7%;
+   
+
+    
 }
 .divtitle{
     display:flex;
-    
+    font-family: 'DynaPuff', cursive;
+    font-size: 25px;
     width: 100%;
     height: 5%;
     justify-content: space-between;
     margin-left: 5%;
     margin-top: 7%;
 }
-
 
 .divone{
     display:flex;
@@ -56,7 +62,9 @@
     margin-left: 0%;
     margin-right: 0%;
     margin-top: -5%;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'DynaPuff', cursive;
+    
 }
 
 .switchButton{
@@ -65,6 +73,7 @@
     justify-items: right;
     margin-left: 76%;
     width: 100%;
+    font-family: 'DynaPuff', cursive;
 
 }
 
@@ -86,6 +95,10 @@
     border-radius: 3rem;
     display: inline-block;
     position: relative;
+    
+}
+.switchbuttoncheckbox {
+  display: none;
 }
 .switchButtonLabel:before {
     transition: .2s;
