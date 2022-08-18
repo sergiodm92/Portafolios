@@ -28,24 +28,33 @@ export default function Aboutme(){
                     {lenguage===0? 
                         <div className={styleAboutme.text} >
             <h1 className={styleAboutme.title}>Sobre mi </h1>
-            <p>Soy un desarrollador frontend con sede en Marrakech, a quien le gusta brindar soluciones para los proyectos de las personas.
-            y negocios que es un reto que disfruto superar.Soy una persona apasionada que persigue sus sueños, que trabaja duro y que está orientada a resultados. 
-            Como un asunto de hecho, trabajo constantemente en mejorarme buscando alcanzar la mejor versión de mí mismo.
-            Construyo sitios web utilizando HTML, CSS, JavaScript y otros marcos y bibliotecas.
-            Paso la mayoría de los días aprendiendo y construyendo, ya sea comenzando desde cero o agregando algunas características personalizadas.
-            y funcionalidad para sitios web obsoletos para que vuelvan a brillar.</p>
+            <p>
+            Hola soy Full Stack Web Developer me dedico al desarrollo de paginas web tanto como en Front-End como Back-End.
+            Soy una persona apasionada por el codigo, los algoritmos y el diseño, comprometida con su trabajo que siempre busca aprender
+            sobre nuevas tecnologías y todo lo que necesite para desempeñarme bien en mi trabajo.  
+            Me gustan los desafios y siempre intento alcanzar nuevos objetivos.
+            Siempre me gustó la programación aunque hasta hace unos años no habia tenido la oportunidad de desembolverme en el area, me forme
+            como Ingeniero Civil en la Universidad de Salta(Argentina), despues de varios años trabajando en la profesión me di cuenta que mi
+            verdadera pasion es el codigo y el diseño.
+            Actualmente me encuentro aprendiendo nuevas tecnologías, diseño UX, idiomas y desarrollando proyectos personales, estoy 
+            abiertos a oportunidades laborales  y a escuchar nuevas propuestas.
+            </p>
             </div>
 
             : 
             <div className={styleAboutme.text}>
             <h1 className={styleAboutme.title}>About me </h1>
-            <p>I’m a Frontend Developer based in Marrakech, Who likes to provide solutions for people's projects 
-            and businesses which it is a challenge that I enjoy overcoming.
-            I am a passionate person who pursues his dreams, who works hard and who is results oriented. As a matter 
-            of fact, I constantly work on improving myself seeking to achieve the best version of myself.
-            I build websites using HTML, CSS, JavaScript, and a other frameworks and libraries. 
-            I spend most days learning and building up, either start it from scratch or adding some customized features 
-            and functionality for outdated websites to make them shine again.</p>
+            <p>
+            Hi, I am a Full Stack Web Developer. I am dedicated to the development of web pages both in Front-End and Back-End.
+             I am a person passionate about code, algorithms and design, committed to his work and always looking to learn.
+             about new technologies and everything I need to perform well in my job.
+             I like challenges and I always try to achieve new goals.
+             I have always liked programming although until a few years ago I had not had the opportunity to work in the area, I trained
+             as a Civil Engineer at the University of Salta (Argentina), after several years working in the profession I realized that my
+             true passion is the code and design.
+             I am currently learning new technologies, UX design, languages and developing personal projects, I am
+             open to job opportunities and listening to new proposals.
+            </p>
             </div>
                     }
 

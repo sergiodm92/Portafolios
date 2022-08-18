@@ -80,7 +80,7 @@ export default function Proyects(){
                   
                             <div className={styleProjects.links}>
                             <a href={e.video}><div className={styleProjects.youtube}></div></a>
-                            <div className={styleProjects.deploy}></div>
+                            <a href={e.deploy}><div className={styleProjects.deploy}></div></a>
 
                     </div>
                 </div>
