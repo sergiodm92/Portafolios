@@ -63,6 +63,7 @@ export default function Proyects(){
                                             album={e.album}
                                             title={e.title}
                                             summary={e.summarySP}
+                                            technology={e.technologiesTitleSP}
                                             deploy={e.deploy}
                                             video={e.video}
                                         />
@@ -72,17 +73,21 @@ export default function Proyects(){
                                             album={e.album}
                                             title={e.title}
                                             summary={e.summaryEN}
+                                            technology={e.technologiesTitleSP}
                                             deploy={e.deploy}
                                             video={e.video}
                                         />
                                 }  
                             </div>
-                  
+                            {e.title!=="💼Porfolio"
+                            ?
                             <div className={styleProjects.links}>
                             <a href={e.video}><div className={styleProjects.youtube}></div></a>
                             <a href={e.deploy}><div className={styleProjects.deploy}></div></a>
-
-                    </div>
+                            
+                            </div>
+                            : <></>
+                            }
                 </div>
                 );
                     })}

@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import StylesCard from "./CardPublication.module.scss";
 
 
-const CardProject = ({ id, summary, album, title }) => {
+const CardProject = ({ id, summary, album, title, technology }) => {
   return (
     <div className={StylesCard.comp_card_publication}>
       <div className={StylesCard.card}>
@@ -22,6 +22,7 @@ const CardProject = ({ id, summary, album, title }) => {
           <p className={StylesCard.title}>{title}</p>
           <div className={StylesCard.cardtext}>
           <p className={StylesCard.summary}>{summary}</p>
+          
             </div>
 
         </div>

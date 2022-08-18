@@ -2,25 +2,27 @@
     [{ 
         "title": "🍏 FoodApi",
 
-        "summarySP":"Es una SPA donde se pueden ver distintas receta de cocina saludable, utilizando la api externa spoonacular, y a partir de ella se puede: Buscar recetas, filtrarlas, ordenarlas y crear nuevas recetas.",
+        "summarySP":"Es una APP Web donde se pueden ver distintas Recetas divididas en paginas por un Paginado y traidas utilizando una API externa Food-APP y a partir de ella se puede: Buscar recetas, filtrarlos por nobre o por tipo de dieta, ordenarlas alfabeticamente o por puntaje, crear tu propia receta llenando un formulario o eliminar una receta creada.",
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN":"It is a Single Page Application where you can see different healthy cooking recipes, using the spoonacular external api, and from it you can: Search for recipes, filter them, order them and create new recipes.",
 
 
         "technologiesTitleEN":"Technologies used:",
         "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
-        "album" :   [   "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                        "https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg",
-                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
+        "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849432/MyPortfolio/food1_-_landing_f4mxn2.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849431/MyPortfolio/food1_-_loading_c5h80u.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849433/MyPortfolio/food1_-_home_pqzrsm.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849429/MyPortfolio/food1_-_new_recipe_rcyxfx.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849432/MyPortfolio/food1_-_sweetAlert_qzmv2z.jpg"
                     ],
         "deploy":"",
-        "video":""
+        "video":"https://www.linkedin.com/posts/sergio-andres-david-maioli-196812176_aplicaci%C3%B3n-donde-se-muestran-recetas-de-comidas-activity-6947276070383431680-xJ_W?utm_source=linkedin_share&utm_medium=member_desktop_web"
         },
     {  
         "title": "⚡ PokemonApi",
 
-        "summarySP" : "Es una SPA donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos.",
-        "technologiesTitleSP":"Tecnologias utilizadas:",
+        "summarySP" : "Es una APP Web donde se pueden ver los distintos Pokemon segun un paginado traidos desde una API externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos por nobre o por tipo, ordenarlos alfabeticamente o por ataque y crear tu propio pokemon llenando un formulario.",
+        "technologiesTitleSP":"<JavaScript><Node.Js><Express><React><Redux><SQL><HTML><CSS>",
         "summaryEN" : "It is a Single Page Application where you can see the different Pokemon using the external pokeapi api and from it you can: Search for pokemon, filter them, order them and create new pokemons.",
         "technologiesTitleEN":"Technologies used:",
         "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
@@ -29,7 +31,7 @@
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677528/MyPortfolio/pokemon_-_detail-readme_gyltnu.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677528/MyPortfolio/pokemon_-_form-readme_jllwxl.jpg"
                     ],
-        "deploy":"https://proyecto-individual-pokemon-chi.vercel.app/home",
+        "deploy":"https://proyecto-individual-pokemon-chi.vercel.app",
         "video":""
                         },
     
@@ -62,16 +64,21 @@
                     
     {  
         "title": "💼Porfolio",
-        "summarySP" : "Pequeño proyecto pensado para presentarme, mostrar mis intereses y habilidades, ademas de mis proyectos mas recientes",
+        "summarySP" : "Este proyecto es el que estas viendo, pensado para presentarme, poder descargar mi CV, ver mis redes sociales, mostrar mis Skills, siempre estará actualizado con mis proyectos mas recientes! en Contact puedes escribirme un mensaje el cual llegará a mi e-mail.",
         "technologiesTitleSP":"Tecnologias utilizadas:",
 
-        "summaryEN" : "Small project designed to introduce myself, show my interests and skills, in addition to my most recent projectsasdasdasd asdddddddddddddddddddddddddddddd asddddddddddddddddddddddddddddddddddddddd",
+        "summaryEN" : "This project is the one you are seeing, designed to introduce myself, be able to download my CV, see my social networks, show my Skills, it will always be updated with my most recent projects! in Contact you can write me a message which will reach my e-mail.",
 
         "technologiesTitleEN":"Technologies used:",
         "technologies" : ["React", "CSS modules - Styled Components"],
-        "album" :    [  "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png",
-                        "https://josefacchin.com/wp-content/uploads/2017/09/bancos-imagenes-gratis.png"
+        "album" :    [  "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848562/MyPortfolio/porfolio1_-_landing_gddmi8.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848900/MyPortfolio/porfolio1_-_home_q3bxos.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848907/MyPortfolio/porfolio1_-_about_h9y0hw.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848907/MyPortfolio/porfolio1_-_skills_vvthad.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848912/MyPortfolio/porfolio1_-_soft_skills_c69svg.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848901/MyPortfolio/porfolio1_-_proyects_pasyqk.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848899/MyPortfolio/porfolio1_-_contact_oagrte.jpg"
+
     ]
                     }
             ]

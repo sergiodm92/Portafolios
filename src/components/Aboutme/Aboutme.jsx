@@ -29,10 +29,10 @@ export default function Aboutme(){
                         <div className={styleAboutme.text} >
             <h1 className={styleAboutme.title}>Sobre mi </h1>
             <p>
-            Hola soy Full Stack Web Developer me dedico al desarrollo de paginas web tanto como en Front-End como Back-End.
+            Hola soy Full Stack Web Developer me dedico al desarrollo de paginas web tanto como en Front-End como Back-End.<br/>
             Soy una persona apasionada por el codigo, los algoritmos y el diseño, comprometida con su trabajo que siempre busca aprender
-            sobre nuevas tecnologías y todo lo que necesite para desempeñarme bien en mi trabajo.  
-            Me gustan los desafios y siempre intento alcanzar nuevos objetivos.
+            sobre nuevas tecnologías y todo lo que necesite para desempeñarme bien en mi trabajo.<br/>
+            Me gustan los desafios y siempre intento alcanzar nuevos objetivos.<br/>
             Siempre me gustó la programación aunque hasta hace unos años no habia tenido la oportunidad de desembolverme en el area, me forme
             como Ingeniero Civil en la Universidad de Salta(Argentina), despues de varios años trabajando en la profesión me di cuenta que mi
             verdadera pasion es el codigo y el diseño.
