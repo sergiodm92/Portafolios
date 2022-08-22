@@ -180,21 +180,25 @@
         justify-items: center;
         justify-content: center;
         gap: 0px;
-        margin-top: -30%;
+        margin-top: -55%;
+      
     }
     .back{
         position: relative;
         display: block;
         width: 100%;
+        height: 100%;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         justify-items: center;
         margin-top: 0px;
         
+        
     }
     .all{
         background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
+        height: 100%;
     }
     .divHome{
         position: relative;
@@ -203,7 +207,7 @@
         text-shadow: black;
         text-justify: auto;
         width: 100%;
-        margin-top: 20%;
+        margin-top: 10%;
        
     }
     .Name{
@@ -226,6 +230,7 @@
         margin-right: auto;
 
     }
+
 .navbar2{
     opacity: 100%;
     position: relative;
@@ -233,6 +238,17 @@
     display: flex;
 
 }
+.links{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    height: 200px;
+
+}
+
 
 
 }

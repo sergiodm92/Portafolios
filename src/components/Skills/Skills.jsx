@@ -1,5 +1,5 @@
 import React from "react"
-
+import NavBar2 from "../NavBar2/NavBar2"
 import styleSkills from "./styleSkills.module.scss"
 import NavBar from "../NavBar/NavBar"
 
@@ -7,8 +7,11 @@ import NavBar from "../NavBar/NavBar"
 export default function Skills(){
 
     return (
-        <div>
-            <div className={styleSkills.back}>
+        <div className={styleSkills.all}>
+            <div className={styleSkills.navbar2}>
+                    <NavBar2/>
+            </div>    
+            
                 <div className={styleSkills.navbar}>
                     <NavBar/>
                 </div>
@@ -17,9 +20,9 @@ export default function Skills(){
                     <a href="https://www.javascript.com/" className={styleSkills.JavaScript}>
                         <p>Javascript</p>
                     </a>
-                    <a href="https://www.python.org/" className={styleSkills.Python}>
+                    {/* <a href="https://www.python.org/" className={styleSkills.Python}>
                         <p>Python(learning...)</p>
-                    </a>
+                    </a> */}
                     <a href="https://en.wikipedia.org/wiki/C%2B%2B" className={styleSkills.cplusplus}>
                         <p>C++</p>
                     </a>
@@ -35,6 +38,16 @@ export default function Skills(){
                     <a href="https://sequelize.org/" className={styleSkills.Secualize}>
                     <p>Secualize</p>
                     </a>
+                    <a href="https://github.com/" className={styleSkills.github}>
+                        <p>Git.Hub</p>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" className={styleSkills.scrum}>
+                        <p>Methodology.Scrum</p>
+                    </a>
+                    <a href="https://vercel.com/" className={styleSkills.vercel}>
+                        <p>Vercel</p>
+                    </a>
+
                 </div>
                 <div className={styleSkills.divtwo}>
                     <a href="https://code.visualstudio.com/" className={styleSkills.VisualStudioCode}>
@@ -61,22 +74,29 @@ export default function Skills(){
                     <a href="https://www.npmjs.com/" className={styleSkills.npm}>
                         <p>npm</p>
                     </a>
+                    {/* <a href="https://www.elephantsql.com/" className={styleSkills.Elephant}>
+                        <p>Elephant.SQL</p>
+                    </a> */}
                     
+                    <a href="https://trello.com/" className={styleSkills.B1}>
+                        <p>English.B1</p>
+                    </a>
+                
                 </div>
                 <div className={styleSkills.divthree}>
                     <a href="https://mui.com/" className={styleSkills.MaterialUI}>
                         <p>Material.UI</p>
                     </a>
-                    <a href="https://insomnia.rest/" className={styleSkills.UXDesing}>
+                    {/* <a href="https://insomnia.rest/" className={styleSkills.UXDesing}>
                         <p>UX.Desing(learning...)</p>
-                    </a>
+                    </a> */}
                     
                     <a href="https://www.figma.com/" className={styleSkills.figma}>
                         <p>Figma</p>
                     </a>
-                    <a href="https://www.canva.com/" className={styleSkills.AdobeXD}>
+                    {/* <a href="https://www.canva.com/" className={styleSkills.AdobeXD}>
                         <p>AdobeXD(learning...)</p>
-                    </a>
+                    </a> */}
                     <a href="https://www.canva.com/" className={styleSkills.Canva}>
                         <p>Canva</p>
                     </a>
@@ -91,39 +111,24 @@ export default function Skills(){
                     <a href="https://insomnia.rest/" className={styleSkills.Insomnia}>
                         <p>Insomnia</p>
                     </a>
-                   
-                </div>
-                <div className={styleSkills.divfour}>
-                    
-                    <a href="https://github.com/" className={styleSkills.github}>
-                        <p>Git.Hub</p>
-                    </a>
-                    <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" className={styleSkills.scrum}>
-                        <p>Methodology.Scrum</p>
-                    </a>
-                    <a href="https://vercel.com/" className={styleSkills.vercel}>
-                        <p>Vercel</p>
-                    </a>
-                    <a href="https://www.heroku.com" className={styleSkills.Heroku}>
-                        <p>Heroku</p>
-                    </a>
-                    <a href="https://www.elephantsql.com/" className={styleSkills.Elephant}>
-                        <p>Elephant.SQL</p>
-                    </a>
-                    
-                    <a href="https://trello.com/" className={styleSkills.B1}>
-                        <p>English.B1</p>
-                    </a>
                     <a href="https://trello.com/" className={styleSkills.trello}>
                         <p>Trello</p>
                     </a>
                     <a href="https://www.postman.com/" className={styleSkills.Postman}>
                         <p>PostMan</p>
                     </a>
+                    <a href="https://www.heroku.com" className={styleSkills.Heroku}>
+                        <p>Heroku</p>
+                    </a>
+                </div>
+                <div className={styleSkills.divfour}>
+                    
+            
+                  
+                 
                 </div>
             </div>
         
-            </div>
     </div>
     )
 }

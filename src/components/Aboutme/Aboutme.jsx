@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import NavBar from "../NavBar/NavBar";
+import NavBar2 from "../NavBar2/NavBar2"
 
 import styleAboutme from "./StyleAboutme.module.scss"
 
@@ -14,7 +15,10 @@ export default function Aboutme(){
     }
 
     return(
-        <div>
+        <div className={styleAboutme.all}>
+        <div className={styleAboutme.navbar2}>
+                <NavBar2/>
+        </div>    
             <div className={styleAboutme.back}>
             <div className={styleAboutme.navbar}>
                 <NavBar/>

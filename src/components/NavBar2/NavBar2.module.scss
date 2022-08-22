@@ -1,6 +1,7 @@
 
 .box1{
     display: flex;
+    background-color: transparent;
     align-items: center;
     cursor: pointer;
     justify-items: center;
@@ -10,12 +11,14 @@
 }
 
 .ButtonHover {
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     background-color: transparent;
     background-size: 100%;
     background-position-y: -60%;
     color: white;
+    background-color: #555555;
+    border-radius: 50%;
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
@@ -35,8 +38,8 @@
   }
 
   .Buttonsk {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     color: white;
     text-decoration: none;
@@ -60,8 +63,7 @@
 
   .Button {
     background-color: white;
-    
- 
+
   }
   
   .Button:hover {
@@ -72,8 +74,8 @@
   .Button {
     background-color: black;
     color: white;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     color: white;
     text-align: center;
