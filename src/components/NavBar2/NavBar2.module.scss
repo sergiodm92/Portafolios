@@ -1,0 +1,100 @@
+
+.box1{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-items: center;
+    width: 100%;
+    
+    
+}
+
+.ButtonHover {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    background-size: 100%;
+    background-position-y: -60%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    font-family: 'DynaPuff', cursive;
+    .ptext{
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+    .ptextsk{
+      margin-top: -35px;
+      margin-left: 50px;
+      
+    }
+  }
+
+  .Buttonsk {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    text-justify: auto;
+    display: inline-block;
+    font-size: 13px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+    font-family: 'DynaPuff', cursive;
+  }
+  .Buttonsk:hover {
+    background-color: #555555;
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    font-size: 13px;
+  }
+
+
+  .Button {
+    background-color: white;
+    
+ 
+  }
+  
+  .Button:hover {
+    background-color: #555555;
+    color: white;
+    font-size: 13px;
+  }
+  .Button {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+    font-family: 'DynaPuff', cursive;
+  }
+
+.ptext{
+    margin-top: 10px;
+}
+.ptextsk{
+ margin-top: 20%;
+  
+}
+
+
+.ptext1{
+  margin-top: 10px;
+}

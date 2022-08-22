@@ -1,38 +1,35 @@
 import React from "react"
 import "./home.css"
 import NavBar from "../NavBar/NavBar"
+import NavBar2 from "../NavBar2/NavBar2"
 import styleHome from "./Home.module.scss"
 import cv from "../../Utils/Curriculum.pdf"
-
-
-
 
 
 export default function Home(){
 
 
     return (
-        <div >
-            
+        <div className={styleHome.all}>
+         <div className={styleHome.navbar2}>
+                <NavBar2/>
+        </div>    
             <div className={styleHome.back}>
             <div className={styleHome.navbar}>
                 <NavBar/>
             </div>
             
             <div className={styleHome.divHome}>
-                <h4>Hi here! I am</h4>
+                <p className={styleHome.hello}>Hi here! I am</p>
                 <br/>
                 
-                <h1>DAVID MAIOLI SERGIO ANDRES </h1>
+                <p className={styleHome.Name}>DAVID MAIOLI SERGIO ANDRES </p>
                 <br></br>
                 <br></br>
 
 
                 <h4 class="line anim-typewriter">Full Stack Web Developer</h4> 
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+
 
 
                 <a href={cv} download="cv.pdf">

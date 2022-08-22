@@ -25,7 +25,10 @@
     top: 0px;
     justify-content: center;
 }
-
+.navbar2{
+    position: fixed;
+    opacity: 0%;
+}
 .back1{
     display: inline;
     background-color: black;
@@ -35,7 +38,6 @@
     right: 0%;
     top: 0px;
     justify-items: center;
- 
 
 }
 .h4{
@@ -48,7 +50,7 @@
     color: #f6f6f6fb;
     text-shadow: black;
     margin-right: 40%;
-    width: 150%;
+    width: 600px;
    
 
 }
@@ -156,3 +158,82 @@
     align-items: flex-end;
 }
 
+@media screen and (max-width: 800px){
+
+    .navbar{
+        opacity: 0%;
+        position: relative;
+        display: block;
+        width: 10%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        justify-content: center;
+    }
+    .back1{
+        display: block;
+        opacity: 100%;
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        justify-items: center;
+        justify-content: center;
+        gap: 0px;
+        margin-top: -60%;
+    }
+    .back{
+        position: relative;
+        display: block;
+        width: 100%;
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-items: center;
+        margin-top: 0px;
+        
+    }
+    .all{
+        background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
+    }
+    .divHome{
+        position: relative;
+        display: block;
+        color: #f6f6f6fb;
+        text-shadow: black;
+        justify-items: center;
+        text-justify: auto;
+        width: 100%;
+        margin-top: -105%;
+    }
+    .Name{
+        font-size: 17px;
+    }
+    .hello{
+        font-size: 15px;
+    }
+    .perfil{
+        display:flex;
+        background-image: url("../../Utils/perfil.jpg");
+        background-position-y: 70%;
+        background-position-x: 150%;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+.navbar2{
+    opacity: 100%;
+    position: relative;
+    width: 100%;
+    display: flex;
+
+}
+
+
+}
