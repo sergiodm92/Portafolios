@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar"
 import styleContact from "./StyleContact.module.scss"
-import styleform from "./Styleform.scss"
+import "./Styleform.scss"
 
 export default function Contact(){
   
