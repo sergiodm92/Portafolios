@@ -48,7 +48,7 @@ export default function Home(){
                     <a href="mailto:crgiodm@gmail.com">
                         <div className={styleHome.Gmail}/>
                     </a>
-                    <a href="https://www.linkedin.com/in/sergio-andres-david-maioli-196812176">
+                    <a href="https://linkedin.com/in/💻sergio-david-196812176">
                         <div className={styleHome.Linkedin}/>
                     </a>
                 </div>

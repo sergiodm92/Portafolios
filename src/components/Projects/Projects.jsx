@@ -79,15 +79,12 @@ export default function Proyects(){
                                         />
                                 }  
                             </div>
-                            {e.title!=="💼Porfolio"
-                            ?
+
                             <div className={styleProjects.links}>
                             <a href={e.video}><div className={styleProjects.youtube}></div></a>
                             <a href={e.deploy}><div className={styleProjects.deploy}></div></a>
                             
                             </div>
-                            : <></>
-                            }
                 </div>
                 );
                     })}

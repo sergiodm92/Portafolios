@@ -23,7 +23,7 @@ export function PaginationRight({ProjectsPerPage, Projects, pagination, CurrentP
     for(let i=1; i<= numbers; i++){
         pageNumbers.push(i)
     }
-    function right(){pagination(CurrentPage<4?CurrentPage+1:CurrentPage)}
+    function right(){pagination(CurrentPage<5?CurrentPage+1:CurrentPage)}
 
     return(
         <div className="paginationleft" onClick={()=>right()}/>

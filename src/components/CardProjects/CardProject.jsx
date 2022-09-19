@@ -12,7 +12,7 @@ const CardProject = ({ id, summary, album, title, technology }) => {
             <Carousel fade>
               {album?.map((e,i) => {
               return  <Carousel.Item key={i}>
-                        <img src={e} alt="First slide"/>
+                        <img src={e} alt="imagen cargando" />
                       </Carousel.Item>
               })}
             </Carousel>

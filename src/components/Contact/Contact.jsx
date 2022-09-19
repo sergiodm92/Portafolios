@@ -1,9 +1,18 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar"
 import styleContact from "./StyleContact.module.scss"
+import emailjs from 'emailjs-com';
 import "./Styleform.scss"
 
 export default function Contact(){
+
+  function enviarEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_3ns59e4','template_n6zhtv4',e.target,'03J_rYdTl2jWwpHCD').then(res=>{
+        console.log(res);
+    })
+  }
   
     return(
         <div>
@@ -13,23 +22,26 @@ export default function Contact(){
             </div>
             <div className={styleContact.divHome}>
             <div className={styleContact.container}>
-  <h1 className={styleContact.title}>Contact me</h1>
-  <form target="_blank" action="https://formsubmit.co/daa7cf686e88ba7862a10ef72835ee30" method="POST">
-    <div className={styleContact.formgroup}>
-      <div class="form-row">
-        <div class="col">
-          <input  type="text" name="name" className="form-control" placeholder="Insert your Name" required/>
-        </div>
-        <div class="col">
-          <input type="email" name="email" className="form-control" placeholder="Insert your e-mail "  required/>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <textarea placeholder="Writte your Message" class="form-control" name="message" rows="10" required></textarea>
-    </div>
-    <button type="submit" className="bottonsend">Send</button>
-  </form>
+            <div style={{width:"80%",margin:"0 auto", marginTop:"15px"}}>
+                <div style={{margin:"0 auto", padding:"10px"}}>
+                    <h1>Contact</h1>
+                    <hr/>
+                    <form onSubmit={enviarEmail}>
+                        <div className="form-row">
+                            <div className="form-group ">
+                              <input type="text" className="form-control" id="nombre" name="nombre" placeholder="Insert your Name"/>
+                            </div>
+                            <div className="form-group ">
+                                <input type="text" className="form-control" id="email" name="email" placeholder="Insert your e-mail"/>
+                            </div>
+                        </div>
+                        <div className="form-group ">
+                            <textarea type="text" className="form-control" id="mensaje" name="mensaje" placeholder="Insert your menssage"></textarea>
+                        </div>
+                        <button type="submit" className="bottonsend" >Send</button>
+                    </form>
+                </div>
+            </div>
 </div>
             
 
@@ -39,4 +51,4 @@ export default function Contact(){
         </div>
 
     )
-}
+    }

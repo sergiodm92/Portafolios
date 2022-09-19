@@ -61,6 +61,32 @@
         "deploy": "https://serviexpress-client.vercel.app/",
         "video": "https://www.youtube.com/watch?v=5S66KU6g08o&t=13s"      
                 },
+                {  
+                    "title": "🐄 GestionCDA",
+            
+                    "summarySP" : "Es una APP Web en la cual el cliente podra gestionar su negocio, podrá cargar compras/ventas/pagos ver informacion sobre stock/compra/ventas/pagos/balance.",
+                    "technologiesTitleSP":"<JavaScript><Node.Js><Express><React><Redux><SQL><HTML><CSS>",
+                    "summaryEN" : "It is a Web APP in which the client will be able to manage his business, he will be able to load purchases/sales/payments and see information about stock/purchase/sales/payments/balance.",
+                    "technologiesTitleEN":"Technologies used:",
+                    "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
+                    "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_1_-_login_a7jfvd.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_2_-_home_wpjbzb.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_3_-_compras_sarvpp.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616216/MyPortfolio/gg_-_4_-_detalle_compras2_un0k9v.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_5_-_hist_compras_yrps4d.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616214/MyPortfolio/gg_-_6_-_nueva_compras_oges5h.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_7_-_faenas_pendientes_cvahls.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616217/MyPortfolio/gg_-_8_-_detalle_faenas_j4lhra.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616216/MyPortfolio/gg_-_9_-_hist_faenas_uvitea.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616217/MyPortfolio/gg_-_10_-_nuevo_pago_faena_py8uhi.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_11_-_nueva_faena_m52lu3.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_12_-_ventas_aye0ck.jpg",
+                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_13_-_detalle_de_ventas_ylwswc.jpg",
+                                    ""
+                                ],
+                    "deploy":"https://proyecto-individual-pokemon-chi.vercel.app",
+                    "video":""
+                                    },
                     
     {  
         "title": "💼Porfolio",
