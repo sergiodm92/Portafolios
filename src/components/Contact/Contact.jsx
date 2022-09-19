@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../NavBar/NavBar"
 import styleContact from "./StyleContact.module.scss"
 import emailjs from 'emailjs-com';
+import swal from "sweetalert";
 import "./Styleform.scss"
 
 export default function Contact(){
@@ -10,7 +11,12 @@ export default function Contact(){
     e.preventDefault();
 
     emailjs.sendForm('service_3ns59e4','template_n6zhtv4',e.target,'03J_rYdTl2jWwpHCD').then(res=>{
-        console.log(res);
+        swal({
+            title: "Mensaje a Sergio",
+            text: "Su mensaje se envió correctamente",
+            icon: "success",
+            button: "ok",
+        })
     })
   }
   
@@ -29,7 +35,7 @@ export default function Contact(){
                     <form onSubmit={enviarEmail}>
                         <div className="form-row">
                             <div className="form-group ">
-                              <input type="text" className="form-control" id="nombre" name="nombre" placeholder="Insert your Name"/>
+                                <input type="text" className="form-control" id="nombre" name="nombre" placeholder="Insert your Name"/>
                             </div>
                             <div className="form-group ">
                                 <input type="text" className="form-control" id="email" name="email" placeholder="Insert your e-mail"/>
@@ -38,7 +44,10 @@ export default function Contact(){
                         <div className="form-group ">
                             <textarea type="text" className="form-control" id="mensaje" name="mensaje" placeholder="Insert your menssage"></textarea>
                         </div>
-                        <button type="submit" className="bottonsend" >Send</button>
+                        <button 
+                        type="submit" 
+                        className="bottonsend" 
+                                >Send</button>
                     </form>
                 </div>
             </div>
