@@ -28,8 +28,8 @@ export default function Contact(){
             </div>
             <div className={styleContact.divHome}>
             <div className={styleContact.container}>
-            <div style={{width:"80%",margin:"0 auto", marginTop:"15px"}}>
-                <div style={{margin:"0 auto", padding:"10px"}}>
+            <div >
+                <div >
                     <h1>Contact</h1>
                     <hr/>
                     <form onSubmit={enviarEmail}>
@@ -41,8 +41,9 @@ export default function Contact(){
                                 <input type="text" className="form-control" id="email" name="email" placeholder="Insert your e-mail"/>
                             </div>
                         </div>
-                        <div className="form-group ">
-                            <textarea type="text" className="form-control" id="mensaje" name="mensaje" placeholder="Insert your menssage"></textarea>
+                        <div className="form-group mensaje">
+                            <textarea type="text" className="form-control" id="mensaje" name="mensaje" placeholder="Insert your menssage"
+                            rows="6"></textarea>
                         </div>
                         <button 
                         type="submit" 
