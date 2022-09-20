@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-//comentario a eliminar
 import NavBar from "../NavBar/NavBar"
 import styleProjects from "./StyleProjects.module.scss"
-
 import CardProject from "../CardProjects/CardProject";
-
 import { PaginationLeft } from "../Pagination/Pagination";
 import {PaginationRight} from "../Pagination/Pagination";
 const {Projects} = require("./Data.json")
@@ -16,7 +13,7 @@ export default function Proyects(){
     const indexOfLastProjects = CurrentPage * ProjectsPerPage;
     const indexOfFirstProjects = indexOfLastProjects - ProjectsPerPage;
     const [lenguage,setLenguage] = useState(1)
-  
+
     function len(){
     if(lenguage===1)setLenguage(0)
     if(lenguage===0)setLenguage(1)
