@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../NavBar/NavBar"
 import styleContact from "./StyleContact.module.scss"
 import emailjs from 'emailjs-com';
-import swal from "sweetalert";
+import swal from 'sweetalert';
 import "./Styleform.scss"
 
 export default function Contact(){
