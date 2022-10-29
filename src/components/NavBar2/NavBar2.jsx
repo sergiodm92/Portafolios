@@ -11,7 +11,7 @@ export default function NavBar2(){
     return (
         
         <div className={styleNavbar.box1}>
-                    <button className={window.location.href.includes("Home") ? styleNavbar.ButtonHover: styleNavbar.Button } onClick={() => {nav(`/Home`)}}>
+                    <button className={window.location.href.includes("Home") ? styleNavbar.ButtonHover: styleNavbar.Button } onClick={() => {nav(`/`)}}>
 						<p className={styleNavbar.ptext}>Home</p>
 					</button>
                     <button className={window.location.href.includes("About") ? styleNavbar.ButtonHover: styleNavbar.Button } onClick={() => {nav(`/Aboutme`)}}>

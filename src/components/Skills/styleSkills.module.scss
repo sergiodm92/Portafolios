@@ -1,18 +1,19 @@
 .all{
     width: 100%;
-    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
-    background-color: aqua;
+    height: 100%;
+    position: absolute;
+    background-image: url("../../Utils/wallpaperflare.com_wallpaper.jpg");
+    
 }
 .navbar2{
     opacity: 0%;
     position: fixed;
     width: 100%;
     display: flex;
-   
 }
 .navbar{
-    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
-    position: absolute;
+    // background-image: url("../../Utils/wallpaperflare.com_wallpaper.jpg");
+    position: fixed;
     margin: 0;
     width: 10%;
     height: 100%;
@@ -22,16 +23,17 @@
 }
 
 .back1{
-    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
-    display: flex;
-    position: absolute;
+    place-items: center;
+    width: 100%;
+    height: 100% ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 100%;
-    right: 0%;
-    top: 0px;
+    padding-left: 15%;
+    padding-top: 0%;
+
+    
 }
 
 .JavaScript{
@@ -93,7 +95,6 @@
     }
 }
 
-
 .cplusplus{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg");
     position: relative;
@@ -122,14 +123,14 @@
         }
 }
 .Html5{
-    background-image: url("https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png");
+    background-image: url("../../Utils/logo-2582748_640.png");
     position: relative;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     text-decoration:none;
     p{
         opacity: 0%;
@@ -204,6 +205,61 @@
         opacity: 100%;
         }
 }
+.mongo{
+    background-image: url("../../Utils/mongodb.png");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.mongo:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -50%;
+        opacity: 100%;
+        }
+}
+.mongoose{
+    background-image: url("../../Utils/mongoose.png");
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-decoration:none;
+    p{
+        opacity: 0%;
+    }
+}
+.mongoose:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f6f6f6;
+    p{
+        color:white;
+        font-size: 30px;
+        margin-top: 100%;
+        margin-left: -50%;
+        opacity: 100%;
+        }
+}
+
 .Secualize{
     background-image: url("https://sequelize.org/img/logo.svg");
     position: relative;
@@ -227,7 +283,7 @@
         color:white;
         font-size: 30px;
         margin-top: 100%;
-        margin-left: -80%;
+        margin-left: -40%;
         opacity: 100%;
         }
 }
@@ -900,7 +956,7 @@
     display:flex;
     justify-content: space-between;
     width: 90%;
-    height: 20%;
+    height: 30%;
     align-items: center;
     margin-left: 5%;
 }
@@ -908,26 +964,19 @@
     display:flex;
     margin-left: 1%;
     width: 90%;
-    height: 20%;
+    height: 30%;
     justify-content: space-between;
     align-items: center;
 }
 .divthree{
     display:flex;
     width: 90%;
-    height: 20%;
+    height: 30%;
     justify-content: space-between;
     align-items: center;
     margin-left: 5%;
 }
-.divfour{
-    display:flex;
-    width: 90%;
-    height: 20%;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 0%;
-}
+
 
 @media screen and (max-width: 800px){
 
@@ -950,8 +999,6 @@
         gap: 0px;
         margin-top: -55%;
         margin-right: 0%;
-       
-      
     }
     .back{
         position: relative;
@@ -968,7 +1015,7 @@
         
     }
     .all{
-        background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
+        background-image: url("../../Utils/wallpaperflare.com_wallpaper.jpg");
         margin-right: 0px;
         margin-left: 0px;
         height: 120%;
@@ -1859,7 +1906,6 @@
 .divone{
     display:grid;
     position: relative;
-  
     width: 90%;
     height: 400px;
     margin-left: 5%;
@@ -1889,16 +1935,5 @@
     gap: 20px;
     background-color: aqua;
 }
-.divfour{
-    display:grid;
-    width: 90%;
-    height: 20%;
-    justify-content: space-between;
-    margin-top: 162%;
-    margin-left: 5%;
-    gap: 20px;
-    background-color: aqua;
-}
-
 
 }

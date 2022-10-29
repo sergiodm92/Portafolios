@@ -1,5 +1,4 @@
 import { Route, Routes} from 'react-router-dom';
-import LandingPage from "./components/LandingPage/LandingPage.jsx"
 import Home from "./components/Home/Home.jsx"
 import Projects from "./components/Projects/Projects.jsx"
 import Contact from './components/Contact/Contact.jsx';
@@ -15,9 +14,8 @@ function App() {
     
     <Routes>
 
-      <Route exact path="/" element={<LandingPage/>}/>       
+      <Route exact path="/" element={<Home/>}/>       
       <Route exact path="/Projects" element={<Projects/>}/> 
-      <Route exact path="/Home" element={<Home/>}/> 
       <Route exact path="/Skills" element={<Skills/>}/>
       <Route exact path="/SoftSk" element={<SoftSk/>}/>
       <Route exact path="/Contact" element={<Contact/>}/>

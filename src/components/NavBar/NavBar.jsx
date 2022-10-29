@@ -11,22 +11,22 @@ export default function NavBar(){
     return (
         
         <div className={styleNavbar.box1}>
-                    <button className={window.location.href.includes("Home") ? styleNavbar.ButtonHover: styleNavbar.Button } onClick={() => {nav(`/Home`)}}>
+                    <button className={styleNavbar.Button} onClick={() => {nav(`/`)}}>
 						<p className={styleNavbar.ptext}>Home</p>
 					</button>
-                    <button className={window.location.href.includes("About") ? styleNavbar.ButtonHover: styleNavbar.Button } onClick={() => {nav(`/Aboutme`)}}>
+                    <button className={styleNavbar.Button} onClick={() => {nav(`/Aboutme`)}}>
 						<p className={styleNavbar.ptext}>About</p>
 					</button>
-                    <button className={window.location.href.includes("Skills") ? styleNavbar.ButtonHover: styleNavbar.Button} onClick={() => {nav(`/Skills`)}}>
+                    <button className={styleNavbar.Button} onClick={() => {nav(`/Skills`)}}>
 						<p className={styleNavbar.ptext}>Skills</p>
 					</button>
-                    <button className={window.location.href.includes("SoftSk") ? styleNavbar.ButtonHover: styleNavbar.Buttonsk} onClick={() => {nav(`/SoftSk`)}}>
+                    <button className={styleNavbar.Buttonsk} onClick={() => {nav(`/SoftSk`)}}>
 						<p className={styleNavbar.ptextsk}>Soft <br></br>Skills</p>
 					</button>
-                    <button className={window.location.href.includes("Projects") ? styleNavbar.ButtonHover: styleNavbar.Button} onClick={() => {nav(`/Projects`)}}>
+                    <button className={styleNavbar.Button} onClick={() => {nav(`/Projects`)}}>
 						<p className={styleNavbar.ptext}>Projec.</p>
 					</button>
-                    <button className={window.location.href.includes("Contact") ? styleNavbar.ButtonHover: styleNavbar.Button} onClick={() => {nav(`/Contact`)}}>
+                    <button className={styleNavbar.Button} onClick={() => {nav(`/Contact`)}}>
 						<p className={styleNavbar.ptext}>Contact</p>
 					</button>
             </div>

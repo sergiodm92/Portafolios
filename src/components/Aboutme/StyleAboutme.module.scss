@@ -1,5 +1,5 @@
 .back{
-    background-image: url("https://cdn.wallpapersafari.com/97/63/Hv4kZr.jpg");
+    background-image: url("../../Utils/wallpaperflare.com_wallpaper.jpg");
     display: grid;
     place-items: center;
     position: fixed;
@@ -19,7 +19,6 @@
 
 }
 .navbar{
- 
     position: absolute;
     margin: 0;
     width: 10%;
@@ -29,22 +28,14 @@
     justify-content: center;
 }
 
-.back1{
-    display: grid;
-    position: absolute;
-    width: 316px;
-    height: 982px;
-    left: 1196px;
-    top: 0px;
-}
 
 .divHome{
     .title{
         text-align: center;
     }
     color:black;
-    width: 50%;
-    font-size: 20px;
+    width: 46%;
+    font-size: 19px;
     text-align: justify;
 }
 
