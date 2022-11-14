@@ -3,7 +3,6 @@ import "./Error.css"
 
 export default function Error(){
     return (
-        <div className="errorimg">
-        </div>
+        <div className="errorimg"></div>
     )
 }

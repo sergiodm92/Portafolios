@@ -1,0 +1,24 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60px;
+    max-height: 60px;
+}
+.imagen{
+    width: 100%;
+    height: auto;
+    opacity: 80%;
+}
+.cont:hover{
+    .imagen{
+        opacity: 100%;
+    }
+}
+@media screen and (max-width: 800px){
+    .cont{
+        min-width: 20px;
+        min-height: 20px;
+    }
+}

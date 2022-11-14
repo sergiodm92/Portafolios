@@ -16,96 +16,99 @@
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849432/MyPortfolio/food1_-_sweetAlert_qzmv2z.jpg"
                     ],
         "deploy":"",
-        "video":"https://www.linkedin.com/posts/sergio-andres-david-maioli-196812176_aplicaci%C3%B3n-donde-se-muestran-recetas-de-comidas-activity-6947276070383431680-xJ_W?utm_source=linkedin_share&utm_medium=member_desktop_web"
+        "video":"https://www.linkedin.com/posts/sergio-andres-david-maioli-196812176_aplicaci%C3%B3n-donde-se-muestran-recetas-de-comidas-activity-6947276070383431680-xJ_W?utm_source=linkedin_share&utm_medium=member_desktop_web",
+        "code": "https://github.com/sergiodm92/FOOD-APP"
         },
-    {  
+        {  
         "title": "⚡ PokemonApi",
-
-        "summarySP" : "Es una APP Web donde se pueden ver los distintos Pokemon segun un paginado traidos desde una API externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos por nobre o por tipo, ordenarlos alfabeticamente o por ataque y crear tu propio pokemon llenando un formulario.",
-        "technologiesTitleSP":"<JavaScript><Node.Js><Express><React><Redux><SQL><HTML><CSS>",
+        "summarySP" : "Es una SPA donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos.",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN" : "It is a Single Page Application where you can see the different Pokemon using the external pokeapi api and from it you can: Search for pokemon, filter them, order them and create new pokemons.",
         "technologiesTitleEN":"Technologies used:",
         "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
-        "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677531/MyPortfolio/pokemon_-_Landing-readme_t7mep3.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677527/MyPortfolio/pokemon_-_home-readme_mamfwg.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677528/MyPortfolio/pokemon_-_detail-readme_gyltnu.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677528/MyPortfolio/pokemon_-_form-readme_jllwxl.jpg"
+        "album" :   [   "../../Utils/Pokemon/pokemon_-_detail-readme_gyltnu.jpg",
+                        "../../Utils/Pokemon/pokemon_-_form-readme_jllwxl.jpg",
+                        "../../Utils/Pokemon/pokemon_-_home-readme_mamfwg.jpg",
+                        "../../Utils/Pokemon/pokemon_-_Landing-readme_t7mep3.jpg"
                     ],
-        "deploy":"https://proyecto-individual-pokemon-chi.vercel.app",
-        "video":""
+        "deploy":"https://proyecto-individual-pokemon-chi.vercel.app/home",
+        "video":"https://youtu.be/pR4zWtxFWUEhttps://youtu.be/pR4zWtxFWUE",
+        "code":"https://github.com/MariRionda/PokemonSPA"
                         },
-    
-
-                    { 
+    {  
         "title": "👷🏽‍♂️ ServiExpress",
         "summarySP":"ServiExpress es una tienda minorista de servicios en línea donde puedes comprar diferentes servicios, pedir presupuestos, o inclusive publicar el servicio que tu ofreces.  Cada vendedor tiene su rankin según los comentarios de otros usuarios que permite saber que tan confiable es la persona que brinda determinado servicio. Inclusive puedes agregar a favoritos a tus prestadores preferidos.",
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN": "ServiExpress is an online services retail store where you can buy different services, ask for quotes, or even publish the service that you offer. Each seller has their ranking according to the comments of other users, which allows us to know how reliable the person who provides a certain service is. You can even bookmark your preferred providers.",
         "technologiesTitleEN":"Technologies used:",
         "technologies": ["PostgreSQL – Sequelize", "Node.js - Express.js", "Passport.js", "Nodemailer", "Stripe – MercadoPago", "Chatengine.io", "React – Redux", "CSS modules - Styled Components", "MaterialUI – Bootstrap"],
-
-        "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677532/MyPortfolio/ServiExpress_-_Landing_jcaryb.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677531/MyPortfolio/ServiExpress_-_Home_uskzdr.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677522/MyPortfolio/ServiExpress_-_Register_yajwze.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677522/MyPortfolio/ServiExpress_-_Register_email_urtf2a.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677522/MyPortfolio/ServiExpress_-_Login_c0kcgy.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677531/MyPortfolio/ServiExpress_-_inicio_sesion_jfxdyd.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677522/MyPortfolio/ServiExpress_-_Profile_exih7d.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677530/MyPortfolio/ServiExpress_-_Fav_yi7i8u.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677532/MyPortfolio/ServiExpress_-_Detail1_fmrdnu.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677529/MyPortfolio/ServiExpress_-_Detail2_qle5lm.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677530/MyPortfolio/ServiExpress_-_Detail3_utcjvi.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677529/MyPortfolio/ServiExpress_-_Contact_nncz3m.jpg"
-
+        "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677525/MyPortfolio/OnDrive_-_Landing_km25h9.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677525/MyPortfolio/OnDrive_-_mal_hm7lrd.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677523/MyPortfolio/OnDrive_-_LOADING_mwgf1q.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677522/MyPortfolio/OnDrive_-_aboutUs_d7p2nr.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677526/MyPortfolio/OnDrive_-_preg_m8lqy6.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677525/MyPortfolio/OnDrive_-_home_cft9rw.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677524/MyPortfolio/OnDrive_-_login_mnxot6.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677529/MyPortfolio/OnDrive_-_register_dtpo8h.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677524/MyPortfolio/OnDrive_-_login_admin_ba4xc1.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677526/MyPortfolio/OnDrive_-_rec_cont_cnsbte.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677525/MyPortfolio/OnDrive_-_profile_dpurdo.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677523/MyPortfolio/OnDrive_-_cond_regist_b4vkjc.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677524/MyPortfolio/OnDrive_-_form_vehiculo_lapk8p.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677522/MyPortfolio/OnDrive_-_admin_panel_omere2.jpg"
                     ],
         "deploy": "https://serviexpress-client.vercel.app/",
-        "video": "https://www.youtube.com/watch?v=5S66KU6g08o&t=13s"      
-                },
-                {  
-                    "title": "🐄 GestionCDA",
-            
-                    "summarySP" : "Es una APP Web en la cual el cliente podra gestionar su negocio, podrá cargar compras/ventas/pagos ver informacion sobre stock/compra/ventas/pagos/balance.",
-                    "technologiesTitleSP":"<JavaScript><Node.Js><Express><React><Redux><SQL><HTML><CSS>",
-                    "summaryEN" : "It is a Web APP in which the client will be able to manage his business, he will be able to load purchases/sales/payments and see information about stock/purchase/sales/payments/balance.",
-                    "technologiesTitleEN":"Technologies used:",
-                    "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
-                    "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_1_-_login_a7jfvd.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_2_-_home_wpjbzb.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_3_-_compras_sarvpp.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616216/MyPortfolio/gg_-_4_-_detalle_compras2_un0k9v.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_5_-_hist_compras_yrps4d.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616214/MyPortfolio/gg_-_6_-_nueva_compras_oges5h.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_7_-_faenas_pendientes_cvahls.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616217/MyPortfolio/gg_-_8_-_detalle_faenas_j4lhra.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616216/MyPortfolio/gg_-_9_-_hist_faenas_uvitea.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616217/MyPortfolio/gg_-_10_-_nuevo_pago_faena_py8uhi.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_11_-_nueva_faena_m52lu3.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_12_-_ventas_aye0ck.jpg",
-                                    "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_13_-_detalle_de_ventas_ylwswc.jpg",
-                                    ""
-                                ],
-                    "deploy":"https://proyecto-individual-pokemon-chi.vercel.app",
-                    "video":""
-                                    },
-                    
+        "video": "https://www.youtube.com/watch?v=5S66KU6g08o&t=13s",
+        "code":"https://github.com/Servi-Express/Servi-express" 
+                    },
+                    {  
+        "title": "🐄 Gestion de Carnes",
+        "summarySP" : "Es una Aplicación que permite gestionar la compra de ganado vacuno, su faeneado, la venta de carne y achuras. Se pueden agendar vendedores, friorificos, proveedores, clientes; permite ver estado de deudas de cada uno, agregar un pago el cual enviara el comprobate automaticamente al correo, se creó una seccion de alertas para ver los productos que esten por vencer, ademas puede ver stock actual, el estado de caja y un balance general.",
+        "technologiesTitleSP":"Tecnologias utilizadas:",
+        "summaryEN" : "",
+        "technologiesTitleEN":"Technologies used:",
+        "technologies":["React", "Redux", "React-Router", "React","Bootstrap", "CSS Modules", "NodeJS", "ExpressJS", "Bcrypt", "Sequelize", "PostgreSQL"],
+        "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_1_-_login_a7jfvd.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_2_-_home_wpjbzb.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_3_-_compras_sarvpp.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616214/MyPortfolio/gg_-_4_-_detalle_compras1_eoijtp.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_5_-_hist_compras_yrps4d.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616214/MyPortfolio/gg_-_6_-_nueva_compras_oges5h.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_7_-_faenas_pendientes_cvahls.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616217/MyPortfolio/gg_-_8_-_detalle_faenas_j4lhra.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616216/MyPortfolio/gg_-_9_-_hist_faenas_uvitea.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616217/MyPortfolio/gg_-_10_-_nuevo_pago_faena_py8uhi.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_11_-_nueva_faena_m52lu3.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_12_-_ventas_aye0ck.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616218/MyPortfolio/gg_-_13_-_detalle_de_ventas_ylwswc.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616219/MyPortfolio/gg_-_14_-_hist_ventas_pztslj.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616219/MyPortfolio/gg_-_15_-_nueva_ventas_nfjmzg.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616219/MyPortfolio/gg_-_16_-_clientes_mu3cvy.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616219/MyPortfolio/gg_-_17_-_detalle_de_clientes_bkkd3z.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616220/MyPortfolio/gg_-_18_-_nuevo_cliente_lo2tez.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616220/MyPortfolio/gg_-_19_-_proveedores_arqgak.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616220/MyPortfolio/gg_-_20_-_detalle_de_proveedor_fxtjua.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_21_-_nuevo_proveedor_r8ksx0.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_22_-_stock_ms3wto.jpg"
+                    ],
+        "deploy": "",
+        "video": "",
+        "code":""
+                    },
     {  
         "title": "💼Porfolio",
-        "summarySP" : "Este proyecto es el que estas viendo, pensado para presentarme, poder descargar mi CV, ver mis redes sociales, mostrar mis Skills, siempre estará actualizado con mis proyectos mas recientes! en Contact puedes escribirme un mensaje el cual llegará a mi e-mail.",
+        "summarySP" : "Pequeño proyecto pensado para presentarme, mostrar mis intereses y habilidades, ademas de mis proyectos mas recientes",
         "technologiesTitleSP":"Tecnologias utilizadas:",
-
-        "summaryEN" : "This project is the one you are seeing, designed to introduce myself, be able to download my CV, see my social networks, show my Skills, it will always be updated with my most recent projects! in Contact you can write me a message which will reach my e-mail.",
-
+        "summaryEN" : "Small project designed to introduce myself, show my interests and skills, in addition to my most recent projects",
         "technologiesTitleEN":"Technologies used:",
         "technologies" : ["React", "CSS modules - Styled Components"],
-        "album" :    [  "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848562/MyPortfolio/porfolio1_-_landing_gddmi8.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848900/MyPortfolio/porfolio1_-_home_q3bxos.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848907/MyPortfolio/porfolio1_-_about_h9y0hw.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848907/MyPortfolio/porfolio1_-_skills_vvthad.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848912/MyPortfolio/porfolio1_-_soft_skills_c69svg.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848901/MyPortfolio/porfolio1_-_proyects_pasyqk.jpg",
-                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1660848899/MyPortfolio/porfolio1_-_contact_oagrte.jpg"
-
+        "album" :    [  "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809698/MyPortfolio/MP_-_01_-_Landing_ghjf2s.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809696/MyPortfolio/MP_-_02_-_home_f17dj0.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809698/MyPortfolio/MP_-_03_-_aboutme_ejk1ff.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809698/MyPortfolio/MP_-_04_-_skills_y1j5rp.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809698/MyPortfolio/MP_-_05_-_softskills_iatgx3.jpg",
+                        "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809696/MyPortfolio/MP_-_06_-_proyectos_vpvenn.jpg"
     ]
                     }
-            ]
-        }
+    ]
+}

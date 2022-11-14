@@ -1,107 +1,78 @@
-import React,{useState} from "react"
+import React from "react"
 import styleSoftSkills from "./styleSoftSkills.module.scss"
 import NavBar from "../NavBar/NavBar"
+import Box from "../boxSoftSkills/box"
 
 
 export default function SoftSkills(){
-    const [lenguage,setLenguage] = useState(1)
-    
-    function len(){
-        if(lenguage===1)setLenguage(0)
-        if(lenguage===0)setLenguage(1)
-    }
 
     return (
         <div>
-            <div className={styleSoftSkills.back}>
+            <div className={styleSoftSkills.all}>
                 <div className={styleSoftSkills.navbar}>
                     <NavBar/>
                 </div>
-                <div className={styleSoftSkills.back1}>
-                    <div className={styleSoftSkills.switchButton} >
-                        <p>English/Spanish</p>
-                        <input type="checkbox"  id="switch-label" onChange={()=> len()} className={styleSoftSkills.switchbuttoncheckbox} />
-                        <label for="switch-label" className={styleSoftSkills.switchButtonLabel} ></label>
-                    </div>
-                    <div className={styleSoftSkills.divtitle}>
-                        {lenguage===0? 
-                        <p>Las 10 Soft Skills que mas me representan </p>
-                        : 
-                        <p>The 10 Soft Skills that represent me the most</p>
-                        }
-                        
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Buena Cominicación </p>
-                        : 
-                        <p>Good Communication</p>
-                        }
-                        <a className={styleSoftSkills.Communication}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Creatividad  </p>
-                        : 
-                        <p>Creativity</p>
-                        }
-                        <a  className={styleSoftSkills.Creativity}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Adaptabilidad y Flexibilidad</p>
-                        : 
-                        <p>Adaptability and Flexibility</p>
-                        }
-                        <a  className={styleSoftSkills.adaptabilidad}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Pensamiento critico y Resolución de problemas  </p>
-                        : 
-                        <p>Critical Thinking & Problem Solving</p>
-                        }
-                        <a  className={styleSoftSkills.think}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Motivación e Inciativa </p>
-                        : 
-                        <p>Motivation and Initiative</p>
-                        }
-                        <a  className={styleSoftSkills.motivation}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Curiosidad y aprendizaje </p>
-                        : 
-                        <p>Curiosity and Active Learning</p>
-                        }
-                        <a  className={styleSoftSkills.curiosity}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Actitud Positiva </p>
-                        : 
-                        <p>positive attitude</p>
-                        }
-                        <a className={styleSoftSkills.attitude}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Trabajo en equipo </p>
-                        : 
-                        <p>Teamwork</p>
-                        }
-                        <a className={styleSoftSkills.teamwork}/>
-                    </div>
-                    <div className={styleSoftSkills.divone}>
-                    {lenguage===0? 
-                        <p>Gestion de Estrés </p>
-                        : 
-                        <p>stress management</p>
-                        }
-                        <a  className={styleSoftSkills.stress}/>
+                <div className={styleSoftSkills.back}>
+                    <div className={styleSoftSkills.back1}>
+                        <div className={styleSoftSkills.divtitle}>
+                            <h3>Las 9 habilidades blandas que mejor me representan </h3>                        
+                        </div>
+                        <div className={styleSoftSkills.items}>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Buena Cominicación"}
+                                    img={"https://comportamientonoverbal.com/clublenguajenoverbal/wp-content/uploads/iniciativa-en-situaciones-de-comunicacion-club-lenguaje-no-verbal-768x528.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Creatividad"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667396701/MyPortfolio/creatividad_t0hbac.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Adaptabilidad y Flexibilidad"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667397739/MyPortfolio/adaptabilidad_qdvy1g.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Pensamiento crítico y Resolución de problemas"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667397866/MyPortfolio/pensamiento_critico_fv0lot.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Motivación e Inciativa"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667397973/MyPortfolio/motivaci%C3%B3n_igomss.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Curiosidad y aprendizaje"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667398169/MyPortfolio/curiosidad_e6jryk.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Actitud Positiva"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667397549/MyPortfolio/actitud_ahhc1l.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Trabajo en equipo"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667397175/MyPortfolio/team_work_ydwrat.png"}
+                                />
+                            </div>
+                            <div className={styleSoftSkills.divone}>
+                                <Box
+                                    text={"Gestion de Estrés"}
+                                    img={"https://res.cloudinary.com/dk2al2urj/image/upload/v1667397016/MyPortfolio/stress_bnhzvo.png"}
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

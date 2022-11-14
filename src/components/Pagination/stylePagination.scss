@@ -1,40 +1,15 @@
 .paginationleft{
-    display: grid;
-    position: relative;
-    width: 50%;
-    height: 10%;
-    color: rgb(10, 10, 5);
-    justify-content: center; 
-    font-size: 30px;
-    background-image: url("https://thumbs.dreamstime.com/z/flecha-blanca-en-c%C3%ADrculo-negro-91471929.jpg");
-    background-size: 200%;
-    background-position-x: 50%;
-    background-position-y: 32%;
-    border-radius: 50%;
     cursor: pointer;
     opacity: 50%;
 }
-
 .paginationleft:hover{
     opacity: 100%;
 }
 
 .paginationright{
-    display: grid;
-    position: relative;
-    width: 50%;
-    height: 10%;
-    color: rgb(10, 10, 5);
-    justify-content: center; 
-    font-size: 30px;
-    background-image: url("https://thumbs.dreamstime.com/z/flecha-blanca-en-c%C3%ADrculo-negro-91471929.jpg");
-    background-size: 300%;
-    border-radius: 50%;
     cursor: pointer;
     opacity: 80%;
-    
 }
-
 .paginationright:hover{
     opacity: 100%;
 }

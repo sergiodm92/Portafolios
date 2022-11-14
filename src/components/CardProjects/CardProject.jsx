@@ -3,16 +3,16 @@ import Carousel from 'react-bootstrap/Carousel';
 import StylesCard from "./CardPublication.module.scss";
 
 
-const CardProject = ({ id, summary, album, title, technology }) => {
+
+const CardProject = ({summary, album, title}) => {
   return (
-    <div className={StylesCard.comp_card_publication}>
-      <div className={StylesCard.card}>
+    <div className={StylesCard.publication}>
         <div className={StylesCard.cardimage}>
-          <div>
-            <Carousel fade>
+          <div className={StylesCard.carruselCont}>
+            <Carousel className={StylesCard.carrusel}>
               {album?.map((e,i) => {
               return  <Carousel.Item key={i}>
-                        <img src={e} alt="imagen cargando" />
+                        <img src={e} alt="First slide" />
                       </Carousel.Item>
               })}
             </Carousel>
@@ -20,17 +20,11 @@ const CardProject = ({ id, summary, album, title, technology }) => {
         </div>
         <div className={StylesCard.cardtext}>
           <p className={StylesCard.title}>{title}</p>
-          <div className={StylesCard.cardtext}>
-          <p className={StylesCard.summary}>{summary}</p>
-          
-            </div>
-
+          <div>
+            <p className={StylesCard.summary}>{summary}</p>
+          </div>
         </div>
-        </div>
-
-          <div className={StylesCard.cardstats}></div>
-        
-      </div>
+    </div>
     
   );
 };
