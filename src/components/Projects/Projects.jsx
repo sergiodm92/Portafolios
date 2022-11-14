@@ -57,7 +57,7 @@ export default function Proyects(){
                                         summary={e.summarySP}
                                     />
                                 </div>
-                                <div className={e.title!=="💼Porfolio"?styleProjects.links:styleProjects.linkP}>
+                                <div className={e.title!=="💼Porfolio" && e.title!=="🐄 Gestion de Carnes"?styleProjects.links:styleProjects.linkP}>
                                     <div className={styleProjects.butt}>
                                         <a href={e.video}>
                                             <ButtonRedes

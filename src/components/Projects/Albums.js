@@ -29,8 +29,12 @@ import gestion7 from "../../Utils/Gestion/gestion7.jpg"
 import gestion8 from "../../Utils/Gestion/gestion8.jpg"
 import gestion9 from "../../Utils/Gestion/gestion9.jpg"
 import gestion10 from "../../Utils/Gestion/gestion10.jpg"
-
-
+import port1 from "../../Utils/Portafolios/Sin título.jpg"
+import port2 from "../../Utils/Portafolios/port2.jpg"
+import port3 from "../../Utils/Portafolios/port3.jpg"
+import port4 from "../../Utils/Portafolios/port4.jpg"
+import port5 from "../../Utils/Portafolios/port5.jpg"
+import port6 from "../../Utils/Portafolios/port6.jpg"
 
 export default function Albums(name){
 
@@ -38,7 +42,7 @@ export default function Albums(name){
     const FoodApi = [food1,food2,food3,food4,food5]
     const GatoGestion = [gestion1,gestion2,gestion3,gestion4,gestion5,gestion6,gestion7,gestion8,gestion9,gestion10]
     const ProyGrupal = []
-    const Portafolio = []
+    const Portafolio = [port1,port2,port3,port4,port5,port6]
     const ServEx = [servex1,servex2,servex3,servex4,servex5,servex6,servex7,servex8,servex9,servex10,servex11,servex11,servex12]
 
 return(name=="⚡ PokemonApi"?Pokemon:name=="🐄 Gestion de Carnes"?GatoGestion:name=="🚘 OnDrive"?ProyGrupal:name=="💼Porfolio"?
