@@ -42,7 +42,7 @@ export default function Home() {
                                 img={"https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-5.png"}
                             />
                         </a>
-                        <a href="https://www.linkedin.com/in/%F0%9F%92%BBsergio-david-196812176/">
+                        <a href="https://www.linkedin.com/in/sergio-david-full-stack/">
                             <ButtonRedes
                                 img={"https://pngimg.com/uploads/linkedIn/linkedIn_PNG6.png"}
                             />
