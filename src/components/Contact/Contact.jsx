@@ -13,7 +13,7 @@ export default function Contact(){
 
     emailjs.sendForm('service_a8whzxg','template_6lbiy7d',e.target,'zJ0448SnBXmFVCo12').then(res=>{
         swal({
-            title: "Mensaje a Mariana",
+            title: "Mensaje a Sergio",
             text: "Su mensaje se envió correctamente",
             icon: "success",
             button: "ok",
