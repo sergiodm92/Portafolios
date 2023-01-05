@@ -92,6 +92,18 @@ export default function Skills(){
                         </a>                    
                     </div>
                     <div className={styleSkills.divthree}>
+                        <a href="https://mongoosejs.com">
+                            <ButtonRedes
+                                img={"https://www.pngfind.com/pngs/m/430-4309574_mongoose-js-logo-hd-png-download.png"}
+                                text={"Mongoose"}
+                            />
+                        </a>
+                        <a href="https://firebase.google.com">
+                            <ButtonRedes
+                                img={"https://miro.medium.com/max/600/1*R4c8lHBHuH5qyqOtZb3h-w.webp"}
+                                text={"Firebase"}
+                            />
+                        </a>
                         <a href="https://getbootstrap.com/">
                             <ButtonRedes
                                 img={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png"}
