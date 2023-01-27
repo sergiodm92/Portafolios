@@ -3,7 +3,6 @@ import pokemon2 from "../../Utils/Pokemon/pokemon_-_form-readme_jllwxl.jpg"
 import pokemon3 from "../../Utils/Pokemon/pokemon_-_home-readme_mamfwg.jpg"
 import pokemon4 from "../../Utils/Pokemon/pokemon_-_Landing-readme_t7mep3.jpg"
 import React, { useState } from "react";
-import NavBar from "../NavBar/NavBar"
 import Albums from "./Albums";
 import styleProjects from "./StyleProjects.module.scss"
 import CardProject from "../CardProjects/CardProject";

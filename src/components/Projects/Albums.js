@@ -35,6 +35,9 @@ import port3 from "../../Utils/Portafolios/port3.jpg";
 import port4 from "../../Utils/Portafolios/port4.jpg";
 import port5 from "../../Utils/Portafolios/port5.jpg";
 import port6 from "../../Utils/Portafolios/port6.jpg";
+import list1 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (1).jpeg";
+import list2 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (2).jpeg";
+import list3 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (3).jpeg";
 
 export default function Albums(name) {
   const Pokemon = [pokemon1, pokemon2, pokemon3, pokemon4];
@@ -51,6 +54,7 @@ export default function Albums(name) {
     gestion9,
     gestion10,
   ];
+  const ListTodo = [list1, list2, list3];
   const ProyGrupal = [];
   const Portafolio = [port1, port2, port3, port4, port5, port6];
   const ServEx = [
@@ -73,6 +77,8 @@ export default function Albums(name) {
     ? Pokemon
     : name == "🐄 Gestion de Carnes"
     ? GatoGestion
+    : name == "✔ ListTodo"
+    ? ListTodo
     : name == "🚘 OnDrive"
     ? ProyGrupal
     : name == "💼Porfolio"
