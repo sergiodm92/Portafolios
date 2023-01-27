@@ -12,17 +12,17 @@ export default function Skills() {
             <a href="https://www.javascript.com/">
               <ButtonRedes
                 img={
-                  "https://logospng.org/download/javascript/logo-javascript-icon-1024.png"
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png"
                 }
                 text={"JavaScript"}
               />
             </a>
-            <a href="https://en.wikipedia.org/wiki/C%2B%2B">
+            <a href="https://www.typescriptlang.org/">
               <ButtonRedes
                 img={
-                  "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201"
                 }
-                text={"C++"}
+                text={"TypeScipt"}
               />
             </a>
             <a href="https://en.wikipedia.org/wiki/HTML5">
@@ -63,6 +63,14 @@ export default function Skills() {
                   "https://ionicframework.com/docs/icons/logo-react-icon.png"
                 }
                 text={"React"}
+              />
+            </a>
+            <a href="https://nextjs.org/">
+              <ButtonRedes
+                img={
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Next.js_Logotype_Light_Background.svg/640px-Next.js_Logotype_Light_Background.svg.png"
+                }
+                text={"Next.js"}
               />
             </a>
             <a href="https://redux.js.org/">
