@@ -1,12 +1,11 @@
 .all{
-    background-image: url("../../Utils/wallpaperflare.com_wallpaper.jpg");
     min-height: 100%;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
-    position: absolute;
+    position: relative;
 }
 .back{
     display: flex;

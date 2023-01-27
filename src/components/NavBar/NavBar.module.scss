@@ -1,11 +1,12 @@
 
 .nav{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 20%;
     padding-right: 20%;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.493);
     height: 30px;
 }
 .btn {

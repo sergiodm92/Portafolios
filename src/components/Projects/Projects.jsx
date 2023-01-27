@@ -33,9 +33,6 @@ export default function Proyects(){
 
     return(
         <div className={styleProjects.all}>
-            <div className={styleProjects.navbar}>
-                <NavBar/>
-            </div>
             <div className={styleProjects.back}>
                 <div className={styleProjects.divPaginationLeft}>
                     <PaginationLeft

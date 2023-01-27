@@ -1,5 +1,11 @@
 .App {
+  position: absolute;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   text-align: center;
+  background-image: url("./Utils/wallpaperflare.com_wallpaper.jpg");
 }
 
 .App-logo {
