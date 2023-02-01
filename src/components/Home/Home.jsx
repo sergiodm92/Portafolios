@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import NavBar from "../NavBar/NavBar";
 import styleHome from "./Home.module.scss";
-import cv from "../../Utils/Curriculum.pdf";
+import cv from "../../Utils/SERGIO DAVID.pdf";
 import Button from "../Button/Button";
 import ButtonRedes from "../Button/Button_redes";
 
