@@ -22,7 +22,7 @@ export function PaginationLeft({
     <div className="paginationleft">
       <ButtonFlecha
         img={
-          "https://res.cloudinary.com/dk2al2urj/image/upload/v1667401377/MyPortfolio/flecha_mzgflr.png"
+          "https://res.cloudinary.com/dk2al2urj/image/upload/v1675274360/MyPortfolio/flecha_blanca_hohnsl.png"
         }
         onClick={() => left()}
       />
@@ -49,7 +49,7 @@ export function PaginationRight({
     <div className="paginationleft">
       <ButtonFlecha
         img={
-          "https://res.cloudinary.com/dk2al2urj/image/upload/v1667401377/MyPortfolio/flecha_mzgflr.png"
+          "https://res.cloudinary.com/dk2al2urj/image/upload/v1675274360/MyPortfolio/flecha_blanca_hohnsl.png"
         }
         onClick={() => right()}
       />
