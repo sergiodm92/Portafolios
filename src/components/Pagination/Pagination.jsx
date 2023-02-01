@@ -42,7 +42,7 @@ export function PaginationRight({
     pageNumbers.push(i);
   }
   function right() {
-    pagination(CurrentPage < 5 ? CurrentPage + 1 : CurrentPage);
+    pagination(CurrentPage < 6 ? CurrentPage + 1 : CurrentPage);
   }
 
   return (

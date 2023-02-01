@@ -26,7 +26,6 @@ import gestion4 from "../../Utils/Gestion/gestion4.jpg";
 import gestion5 from "../../Utils/Gestion/gestion5.jpg";
 import gestion6 from "../../Utils/Gestion/gestion6.jpg";
 import gestion7 from "../../Utils/Gestion/gestion7.jpg";
-import gestion8 from "../../Utils/Gestion/gestion8.jpg";
 import gestion9 from "../../Utils/Gestion/gestion9.jpg";
 import gestion10 from "../../Utils/Gestion/gestion10.jpg";
 import port1 from "../../Utils/Portafolios/Sin título.jpg";
@@ -50,7 +49,6 @@ export default function Albums(name) {
     gestion5,
     gestion6,
     gestion7,
-    gestion8,
     gestion9,
     gestion10,
   ];

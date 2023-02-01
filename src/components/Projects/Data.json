@@ -5,7 +5,8 @@
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN" : "",
         "technologiesTitleEN":"Technologies used:",
-        "technologies":["React", "Redux", "React-Router", "React","Bootstrap", "CSS Modules", "NodeJS", "ExpressJS", "Bcrypt", "Sequelize", "PostgreSQL"],
+        "technologiesPrimary":["JavaScript","HTML", "CSS.Modules", "Node.js", "Firebase","NoSQL"],
+        "technologiesSecundary":["React-Redux", "Express","Bootstrap","Material-UI","Email.js","React-PDF","SweetAlert"],
         "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_1_-_login_a7jfvd.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_2_-_home_wpjbzb.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_3_-_compras_sarvpp.jpg",
@@ -35,11 +36,12 @@
                     },
         { 
         "title": "✔ ListTodo",
-        "summarySP":"Es una APP Web que posee Login y Register, puedes crear una lista de tareas, cambiar su estado a completada, puedes editarla, eliminarla temporalmente, reestablecerla o eliminarla completamente. [Next.js, React, TypeScript, HTML, CSS, Material-UI, SweetAlert2, Vercel, JavaScript, Node.js, Firebase, Express]",
+        "summarySP":"Es una APP Web que posee Login y Register, puedes crear una lista de tareas, cambiar su estado a completada, puedes editarla, eliminarla temporalmente, reestablecerla o eliminarla completamente.",
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN":"It is a Web APP that has Login and Register, you can create a task list, change its status to completed, you can edit it, temporarily delete it, reset it or delete it completely.",
         "technologiesTitleEN":"Technologies used:",
-        "technologies" : ["Next.js", "React", "TypeScript", "HTML", "CSS","Material-UI","Node.js","Firebase", "Express"],
+        "technologiesPrimary" : ["TypeScript", "HTML", "CSS.Modules","Node.js","Firebase", "Express"],
+        "technologiesSecundary":["Next.js", "React","Material-UI","SweetAlert2"],
         "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616215/MyPortfolio/gg_-_1_-_login_a7jfvd.jpg",
         "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_2_-_home_wpjbzb.jpg",
         "https://res.cloudinary.com/dk2al2urj/image/upload/v1663616213/MyPortfolio/gg_-_3_-_compras_sarvpp.jpg",
@@ -69,18 +71,19 @@
         },
         {  
         "title": "⚡ PokemonApi",
-        "summarySP" : "Es una SPA donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos. [JavaScript, React, Redux, HTML, CSS, Node.js, Express, Sequelize]",
+        "summarySP" : "Es una SPA donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos.",
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN" : "It is a Single Page Application where you can see the different Pokemon using the external pokeapi api and from it you can: Search for pokemon, filter them, order them and create new pokemons.",
         "technologiesTitleEN":"Technologies used:",
-        "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
+        "technologiesPrimary" : [ "JavaScript","HTML","CSS","Express","SQL"],
+        "technologiesSecundary":["React", "Redux"],
         "album" :   [   "../../Utils/Pokemon/pokemon_-_detail-readme_gyltnu.jpg",
                         "../../Utils/Pokemon/pokemon_-_form-readme_jllwxl.jpg",
                         "../../Utils/Pokemon/pokemon_-_home-readme_mamfwg.jpg",
                         "../../Utils/Pokemon/pokemon_-_Landing-readme_t7mep3.jpg"
                     ],
         "deploy":"https://proyecto-individual-pokemon-chi.vercel.app/home",
-        "video":"https://youtu.be/pR4zWtxFWUEhttps://youtu.be/pR4zWtxFWUE",
+        "video":"",
         "code":"https://github.com/MariRionda/PokemonSPA"
                         },
     {  
@@ -89,7 +92,8 @@
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN": "ServiExpress is an online services retail store where you can buy different services, ask for quotes, or even publish the service that you offer. Each seller has their ranking according to the comments of other users, which allows us to know how reliable the person who provides a certain service is. You can even bookmark your preferred providers.",
         "technologiesTitleEN":"Technologies used:",
-        "technologies": ["PostgreSQL – Sequelize", "Node.js - Express.js", "Passport.js", "Nodemailer", "Stripe – MercadoPago", "Chatengine.io", "React – Redux", "CSS modules - Styled Components", "MaterialUI – Bootstrap"],
+        "technologiesPrimary": ["JavaScript", "React","Redux","SQL", "Node.js", "Express.js","CSS.modules"],
+        "technologiesSecundary":["Bootstrap","Material-UI","SweetAlert","ChatEngine","MercadoPago","Scrum"],
         "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677525/MyPortfolio/OnDrive_-_Landing_km25h9.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677525/MyPortfolio/OnDrive_-_mal_hm7lrd.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660677523/MyPortfolio/OnDrive_-_LOADING_mwgf1q.jpg",
@@ -112,13 +116,14 @@
                     { 
                         "title": "🍏 FoodApi",
                 
-                        "summarySP":"Es una APP Web donde se pueden ver distintas Recetas divididas en paginas por un Paginado y traidas utilizando una API externa Food-APP y a partir de ella se puede: Buscar recetas, filtrarlos por nobre o por tipo de dieta, ordenarlas alfabeticamente o por puntaje, crear tu propia receta llenando un formulario o eliminar una receta creada. [JavaScript, React, Redux, HTML, CSS, SweetAlert, Node.js, Express, Sequelize]",
+                        "summarySP":"Es una APP Web donde se pueden ver distintas Recetas divididas en paginas por un Paginado y traidas utilizando una API externa Food-APP y a partir de ella se puede: Buscar recetas, filtrarlos por nobre o por tipo de dieta, ordenarlas alfabeticamente o por puntaje, crear tu propia receta llenando un formulario o eliminar una receta creada.",
                         "technologiesTitleSP":"Tecnologias utilizadas:",
                         "summaryEN":"It is a Single Page Application where you can see different healthy cooking recipes, using the spoonacular external api, and from it you can: Search for recipes, filter them, order them and create new recipes.",
                 
                 
                         "technologiesTitleEN":"Technologies used:",
-                        "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
+                        "technologiesPrimary" : [ "JavaScript","HTML","CSS","Express","SQL"],
+                        "technologiesSecundary":["React", "Redux", "SweetAlert"],
                         "album" :   [   "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849432/MyPortfolio/food1_-_landing_f4mxn2.jpg",
                                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849431/MyPortfolio/food1_-_loading_c5h80u.jpg",
                                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1660849433/MyPortfolio/food1_-_home_pqzrsm.jpg",
@@ -129,29 +134,15 @@
                         "video":"https://www.youtube.com/watch?v=cdIqwv4uokE",
                         "code": "https://github.com/sergiodm92/FOOD-APP"
                         },
-                        {  
-                        "title": "⚡ PokemonApi",
-                        "summarySP" : "Es una SPA donde se pueden ver los distintos Pokemon utilizando la api externa pokeapi y a partir de ella se puede: Buscar pokemon, filtrarlos, ordenarlos y crear pokemons nuevos.",
-                        "technologiesTitleSP":"Tecnologias utilizadas:",
-                        "summaryEN" : "It is a Single Page Application where you can see the different Pokemon using the external pokeapi api and from it you can: Search for pokemon, filter them, order them and create new pokemons.",
-                        "technologiesTitleEN":"Technologies used:",
-                        "technologies" : ["React", "Redux", "Express","Sequelize - Postgres"],
-                        "album" :   [   "../../Utils/Pokemon/pokemon_-_detail-readme_gyltnu.jpg",
-                                        "../../Utils/Pokemon/pokemon_-_form-readme_jllwxl.jpg",
-                                        "../../Utils/Pokemon/pokemon_-_home-readme_mamfwg.jpg",
-                                        "../../Utils/Pokemon/pokemon_-_Landing-readme_t7mep3.jpg"
-                                    ],
-                        "deploy":"https://proyecto-individual-pokemon-chi.vercel.app/home",
-                        "video":"https://youtu.be/pR4zWtxFWUEhttps://youtu.be/pR4zWtxFWUE",
-                        "code":"https://github.com/MariRionda/PokemonSPA"
-                                        },
+                        
     {  
         "title": "💼Porfolio",
         "summarySP" : "Pequeño proyecto pensado para presentarme, mostrar mis intereses y habilidades, ademas de mis proyectos mas recientes",
         "technologiesTitleSP":"Tecnologias utilizadas:",
         "summaryEN" : "Small project designed to introduce myself, show my interests and skills, in addition to my most recent projects",
         "technologiesTitleEN":"Technologies used:",
-        "technologies" : ["React", "CSS modules - Styled Components"],
+        "technologiesPrimary" : ["JavaScript","HTML","CSS.Modules"],
+        "technologiesSecundary":["React","Redux","Material-UI","Email.js","JSON","SweetAlert"],
         "album" :    [  "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809698/MyPortfolio/MP_-_01_-_Landing_ghjf2s.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809696/MyPortfolio/MP_-_02_-_home_f17dj0.jpg",
                         "https://res.cloudinary.com/dk2al2urj/image/upload/v1664809698/MyPortfolio/MP_-_03_-_aboutme_ejk1ff.jpg",

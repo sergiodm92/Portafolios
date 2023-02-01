@@ -52,7 +52,9 @@ export default function Proyects() {
                     album={Albums(e.title)}
                     title={e.title}
                     summary={e.summarySP}
-                  />
+                    technologiesPrimary={e.technologiesPrimary}
+                    technologiesSecundary={e.technologiesSecundary}
+                  />        
                 </div>
                 <div
                   className={
