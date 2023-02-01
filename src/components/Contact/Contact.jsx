@@ -2,14 +2,59 @@ import React from "react";
 import swal from "sweetalert";
 import emailjs from "emailjs-com";
 import Button from "../Button/Button";
-import NavBar from "../NavBar/NavBar";
 import styleContact from "./StyleContact.module.scss";
 import "./Contact.scss";
 
 export default function Contact() {
   function enviarEmail(e) {
     e.preventDefault();
-
+    const emailRegex =
+      /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+    if (!e.target.name.value) {
+      swal({
+        title: "Error",
+        text: "Debe escibir su nombre",
+        icon: "error",
+        button: "ok",
+      });
+      return;
+    }
+    if (e.target.name.value.length < 4) {
+      swal({
+        title: "Error",
+        text: "Su nombre es muy corto",
+        icon: "error",
+        button: "ok",
+      });
+      return;
+    }
+    if (!e.target.email.value) {
+      swal({
+        title: "Error",
+        text: "Debe escribir un email",
+        icon: "error",
+        button: "ok",
+      });
+      return;
+    }
+    if (!emailRegex.test(e.target.email.value)) {
+      swal({
+        title: "Error",
+        text: "Email invalido",
+        icon: "error",
+        button: "ok",
+      });
+      return;
+    }
+    if (!e.target.message.value.length < 50) {
+      swal({
+        title: "Error",
+        text: "Su mensaje es muy corto debe superar los 50 caracteres",
+        icon: "error",
+        button: "ok",
+      });
+      return;
+    }
     emailjs
       .sendForm(
         "service_a8whzxg",
@@ -41,16 +86,14 @@ export default function Contact() {
                     name="name"
                     className="form-control"
                     placeholder="Su nombre"
-                    required
                   />
                 </div>
                 <div className="col">
                   <input
-                    type="email"
+                    type="text"
                     name="email"
                     className="form-control"
                     placeholder="Su e-mail"
-                    required
                   />
                 </div>
               </div>
@@ -61,7 +104,6 @@ export default function Contact() {
                 className="form-control"
                 name="message"
                 rows="10"
-                required
               ></textarea>
             </div>
             <div>
