@@ -38,6 +38,7 @@
 .carrusel{
     max-width: 620px;
     max-height: 350px;
+    min-height: 320px;
 }
 .divTechnologies{
     display: flex;
@@ -60,11 +61,12 @@
     }
     .cardtext{
         max-width: 320px;
-        min-height: 400px;
+        min-height: 300px;
+        font-size: 14px;
     }
     .carrusel{
         max-width: 320px;
-        
+        min-height: 200px;
     }
     .cardimage{
         max-width: 320px;
