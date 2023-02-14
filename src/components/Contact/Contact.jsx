@@ -46,7 +46,7 @@ export default function Contact() {
       });
       return;
     }
-    if (!e.target.message.value.length < 50) {
+    if (e.target.message.value.length < 50) {
       swal({
         title: "Error",
         text: "Su mensaje es muy corto debe superar los 50 caracteres",
