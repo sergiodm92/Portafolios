@@ -1,7 +1,6 @@
 .publication{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .cardimage{
@@ -14,11 +13,12 @@
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 20px;
     position: relative;
-    text-align:justify;
     max-width: 600px;
     min-height: 210px;
     padding: 10px;
     margin-top: 50px;
+    font-size: 14px;
+    text-align: justify;
 }
 .title{
     color: rgb(0, 0, 0);
@@ -26,7 +26,6 @@
     text-shadow: 0 2px 2px rgb(255, 255, 255);
 }
 .summary{
-    text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }

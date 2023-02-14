@@ -31,7 +31,6 @@ import gestion10 from "../../Utils/Gestion/gestion10.jpg";
 import port1 from "../../Utils/Portafolios/Sin título.jpg";
 import port2 from "../../Utils/Portafolios/port2.jpg";
 import port3 from "../../Utils/Portafolios/port3.jpg";
-import port4 from "../../Utils/Portafolios/port4.jpg";
 import port5 from "../../Utils/Portafolios/port5.jpg";
 import port6 from "../../Utils/Portafolios/port6.jpg";
 import list1 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (1).jpeg";
@@ -54,7 +53,7 @@ export default function Albums(name) {
   ];
   const ListTodo = [list1, list2, list3];
   const ProyGrupal = [];
-  const Portafolio = [port1, port2, port3, port4, port5, port6];
+  const Portafolio = [port1, port2, port3, port5, port6];
   const ServEx = [
     servex1,
     servex2,

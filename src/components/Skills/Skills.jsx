@@ -95,33 +95,8 @@ export default function Skills() {
                 text={"Express.js"}
               />
             </a>
-            <a href="https://www.postgresql.org/">
-              <ButtonRedes
-                img={
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1985px-Postgresql_elephant.svg.png"
-                }
-                text={"PostgreSQL"}
-              />
-            </a>
-
-            <a href="https://www.npmjs.com/">
-              <ButtonRedes
-                img={
-                  "https://miro.medium.com/max/1200/1*BfTeu35aPGjLDfkj4zmYJQ.png"
-                }
-                text={"npm"}
-              />
-            </a>
           </div>
           <div className={styleSkills.divthree}>
-            <a href="https://mongoosejs.com">
-              <ButtonRedes
-                img={
-                  "https://www.pngfind.com/pngs/m/430-4309574_mongoose-js-logo-hd-png-download.png"
-                }
-                text={"Mongoose"}
-              />
-            </a>
             <a href="https://firebase.google.com">
               <ButtonRedes
                 img={
@@ -154,14 +129,6 @@ export default function Skills() {
                 text={"Figma"}
               />
             </a>
-            <a href="https://sass-lang.com/">
-              <ButtonRedes
-                img={
-                  "https://blog.artegrafico.net/wp-content/uploads/2019/07/sass-512.png"
-                }
-                text={"SaSS"}
-              />
-            </a>
             <a href="https://trello.com/">
               <ButtonRedes
                 img={"https://img.icons8.com/color/480/trello.png"}
@@ -182,14 +149,6 @@ export default function Skills() {
               <ButtonRedes
                 img={"https://khaganat.net/wikhan/_media/fr:git_icon.png"}
                 text={"GitFlow"}
-              />
-            </a>
-            <a href="https://insomnia.rest/">
-              <ButtonRedes
-                img={
-                  "https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
-                }
-                text={"Insomnia"}
               />
             </a>
           </div>

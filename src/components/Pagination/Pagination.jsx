@@ -15,7 +15,7 @@ export function PaginationLeft({
   }
 
   function left() {
-    pagination(CurrentPage > 1 ? CurrentPage - 1 : CurrentPage);
+    pagination(CurrentPage > 1 ? CurrentPage - 1 : 6);
   }
 
   return (
@@ -42,7 +42,7 @@ export function PaginationRight({
     pageNumbers.push(i);
   }
   function right() {
-    pagination(CurrentPage < 6 ? CurrentPage + 1 : CurrentPage);
+    pagination(CurrentPage < 6 ? CurrentPage + 1 : 1);
   }
 
   return (
