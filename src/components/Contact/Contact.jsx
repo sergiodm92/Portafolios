@@ -57,10 +57,10 @@ export default function Contact() {
     }
     emailjs
       .sendForm(
-        "service_a8whzxg",
-        "template_6lbiy7d",
+        "service_3ns59e4",
+        "template_8xd9vqb",
         e.target,
-        "zJ0448SnBXmFVCo12"
+        "03J_rYdTl2jWwpHCD"
       )
       .then((res) => {
         swal({
