@@ -25,6 +25,14 @@ export default function Skills() {
                 
               />
             </a>
+            <a href="https://www.python.org/">
+              <ButtonRedes
+                img={
+                  "https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg"
+                }
+               
+              />
+            </a>
             <a href="https://en.wikipedia.org/wiki/HTML5">
               <ButtonRedes
                 img={
@@ -81,6 +89,15 @@ export default function Skills() {
                 
               />
             </a>
+            <a href="https://fastapi.tiangolo.com/">
+              <ButtonRedes
+                img={
+                  "https://cdn.worldvectorlogo.com/logos/fastapi-1.svg"
+                }
+                
+              />
+            </a>
+            
             <a href="https://nodejs.org/en/">
               <ButtonRedes
                 img={"https://cdn-icons-png.flaticon.com/512/919/919825.png"}

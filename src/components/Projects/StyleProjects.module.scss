@@ -21,7 +21,7 @@
     gap: 20px;
 }
 .carousel img {
-    width: 615px;
+    width: 660px;
     height: auto;
 }
 .divPaginationLeft{
@@ -52,6 +52,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.galeri{
+    width: 70%;
+    padding: 2%;
 }
 @media screen and (max-width: 800px){
     .carousel{
