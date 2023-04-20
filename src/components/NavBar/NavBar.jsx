@@ -28,7 +28,7 @@ export default function NavBar() {
           nav(`/Aboutme`);
         }}
       >
-        Sobre mi
+        About me
       </b>
       <b
         className={
