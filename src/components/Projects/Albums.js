@@ -31,12 +31,13 @@ import gestion10 from "../../Utils/Gestion/gestion10.jpg";
 import port1 from "../../Utils/Portafolios/Sin título.jpg";
 import port2 from "../../Utils/Portafolios/port2.jpg";
 import port3 from "../../Utils/Portafolios/port3.jpg";
-import port4 from "../../Utils/Portafolios/port4.jpg";
 import port5 from "../../Utils/Portafolios/port5.jpg";
 import port6 from "../../Utils/Portafolios/port6.jpg";
 import list1 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (1).jpeg";
 import list2 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (2).jpeg";
 import list3 from "../../Utils/ListTodo/WhatsApp Image 2023-01-27 at 6.44.58 PM (3).jpeg";
+import weather1 from "../../Utils/WeatherApp/weather1.png"
+import weather2 from "../../Utils/WeatherApp/weather2.png"
 
 export default function Albums(name) {
   const Pokemon = [pokemon1, pokemon2, pokemon3, pokemon4];
@@ -54,7 +55,7 @@ export default function Albums(name) {
   ];
   const ListTodo = [list1, list2, list3];
   const ProyGrupal = [];
-  const Portafolio = [port1, port2, port3, port4, port5, port6];
+  const Portafolio = [port1, port2, port3, port5, port6];
   const ServEx = [
     servex1,
     servex2,
@@ -70,6 +71,10 @@ export default function Albums(name) {
     servex11,
     servex12,
   ];
+  const WeatherApp = [
+    weather1,
+    weather2
+  ]
 
   return name == "⚡ PokemonApi"
     ? Pokemon
@@ -77,6 +82,8 @@ export default function Albums(name) {
     ? GatoGestion
     : name == "✔ ListTodo"
     ? ListTodo
+    : name == "🌞 WeatherApp"
+    ? WeatherApp
     : name == "🚘 OnDrive"
     ? ProyGrupal
     : name == "💼Porfolio"

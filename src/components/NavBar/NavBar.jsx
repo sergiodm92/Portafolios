@@ -40,19 +40,7 @@ export default function NavBar() {
           nav(`/Skills`);
         }}
       >
-        Habilidades
-      </b>
-      <b
-        className={
-          window.location.pathname == "/SoftSk"
-            ? styleNavbar.btnHover
-            : styleNavbar.btn
-        }
-        onClick={() => {
-          nav(`/SoftSk`);
-        }}
-      >
-        Hab. Blandas
+        Skills
       </b>
       <b
         className={

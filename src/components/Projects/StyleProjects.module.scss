@@ -21,17 +21,19 @@
     gap: 20px;
 }
 .carousel img {
-    width: 615px;
+    width: 660px;
     height: auto;
 }
 .divPaginationLeft{
     position: relative;
     transform: scaleX(-1);
     min-width: 20px;
+    width: 30px;
 }
 .divPaginationRight{
     position: relative;
     min-width: 20px;
+    width: 30px;
 }
 .links{
     display: flex;
@@ -50,6 +52,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.galeri{
+    width: 70%;
+    padding: 2%;
 }
 @media screen and (max-width: 800px){
     .carousel{
