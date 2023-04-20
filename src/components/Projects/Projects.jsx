@@ -1,3 +1,7 @@
+import pokemon1 from "../../Utils/Pokemon/pokemon_-_detail-readme_gyltnu.jpg";
+import pokemon2 from "../../Utils/Pokemon/pokemon_-_form-readme_jllwxl.jpg";
+import pokemon3 from "../../Utils/Pokemon/pokemon_-_home-readme_mamfwg.jpg";
+import pokemon4 from "../../Utils/Pokemon/pokemon_-_Landing-readme_t7mep3.jpg";
 import React, { useState } from "react";
 import Albums from "./Albums";
 import styleProjects from "./StyleProjects.module.scss";
@@ -5,17 +9,14 @@ import CardProject from "../CardProjects/CardProject";
 import { PaginationLeft } from "../Pagination/Pagination";
 import { PaginationRight } from "../Pagination/Pagination";
 import ButtonRedes from "../Button/Button_redes";
-import Galeri from "../Galeri/Galeri";
 const { Projects } = require("./Data.json");
 
-
 export default function Proyects() {
-
+  const albumPokemon = [pokemon1, pokemon2, pokemon3, pokemon4];
   const [CurrentPage, setCurrentPage] = useState(1);
   const [ProjectsPerPage, setProjectsPerPage] = useState(1);
   const indexOfLastProjects = CurrentPage * ProjectsPerPage;
   const indexOfFirstProjects = indexOfLastProjects - ProjectsPerPage;
-
 
   let currentProjects;
 
@@ -32,26 +33,29 @@ export default function Proyects() {
 
   return (
     <div className={styleProjects.all}>
-      <div className={styleProjects.galeri}>
-       <Galeri 
-       project={'gestion'}
-       />
-      </div>
       <div className={styleProjects.back}>
-        {/* <div className={styleProjects.divPaginationLeft}>
+        <div className={styleProjects.divPaginationLeft}>
           <PaginationLeft
             ProjectsPerPage={ProjectsPerPage}
             Projects={Projects.length}
             pagination={pagination}
             CurrentPage={CurrentPage}
           />
-        </div> */}
-       
+        </div>
         <div className={styleProjects.divHome}>
-          
           {currentProjects.map((e, i) => {
             return (
               <div className={styleProjects.middle} key={i}>
+                <div className={styleProjects.carousel}>
+                  <CardProject
+                    key={i}
+                    album={Albums(e.title)}
+                    title={e.title}
+                    summary={e.summarySP}
+                    technologiesPrimary={e.technologiesPrimary}
+                    technologiesSecundary={e.technologiesSecundary}
+                  />        
+                </div>
                 <div
                   className={
                     e.title !== "💼Porfolio"
@@ -60,7 +64,7 @@ export default function Proyects() {
                   }
                   key={i}
                 >
-                  {/* <div className={styleProjects.butt}>
+                  <div className={styleProjects.butt}>
                     <a href={e.video}>
                       <ButtonRedes
                         img={
@@ -86,20 +90,20 @@ export default function Proyects() {
                         }
                       />
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             );
           })}
         </div>
-        {/* <div className={styleProjects.divPaginationRight}>
+        <div className={styleProjects.divPaginationRight}>
           <PaginationRight
             ProjectsPerPage={ProjectsPerPage}
             Projects={Projects.length}
             pagination={pagination}
             CurrentPage={CurrentPage}
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

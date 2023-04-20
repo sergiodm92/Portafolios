@@ -8,7 +8,6 @@ export function PaginationLeft({
   pagination,
   CurrentPage,
 }) {
-
   const pageNumbers = [];
   const numbers = Math.ceil(Projects / ProjectsPerPage);
   for (let i = 1; i <= numbers; i++) {
@@ -16,7 +15,7 @@ export function PaginationLeft({
   }
 
   function left() {
-    pagination(CurrentPage > 1 ? CurrentPage - 1 : Projects);
+    pagination(CurrentPage > 1 ? CurrentPage - 1 : 6);
   }
 
   return (
@@ -43,7 +42,7 @@ export function PaginationRight({
     pageNumbers.push(i);
   }
   function right() {
-    pagination(CurrentPage < Projects ? CurrentPage + 1 : 1);
+    pagination(CurrentPage < 6 ? CurrentPage + 1 : 1);
   }
 
   return (
