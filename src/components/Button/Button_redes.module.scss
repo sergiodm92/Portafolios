@@ -28,3 +28,12 @@
     size: 20px;
     opacity: 0%;
 }
+
+@media screen and (max-width: 500px){
+
+    .imagen{
+        width: 35px;
+        height: auto;
+    }
+
+}
