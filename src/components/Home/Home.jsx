@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import styleHome from "./Home.module.scss";
-import cv from "../../Utils/SERGIO DAVID.pdf";
+import cv from "../../Utils/SERGIO DAVID (cv).pdf";
 import Button from "../Button/Button";
 import ButtonRedes from "../Button/Button_redes";
 
